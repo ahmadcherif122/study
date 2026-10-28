@@ -14,7 +14,8 @@
   Study.lsGet = lsGet; Study.lsSet = lsSet;
 
   /* ---------------- i18n ---------------- */
-  var lang = lsGet("lang", "en");
+  var navL = ((navigator.languages && navigator.languages[0]) || navigator.language || "en").toLowerCase();
+  var lang = lsGet("lang", navL.indexOf("fr") === 0 ? "fr" : "en");
   if (lang !== "en" && lang !== "fr") lang = "en";
   function tr(b) {
     if (b == null) return "";
