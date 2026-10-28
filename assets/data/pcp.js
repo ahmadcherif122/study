@@ -866,7 +866,6 @@ var CHEAT = [
     past: PAST,
     pastLabel: ["Past exams", "Anciens DS"],
     materials: MATERIALS.filter(function (m) { return m.path.indexOf("course/view") < 0; }).map(function (m) { return { title: m.title, kind: m.kind, note: ["Moodle folder (module link not confirmed; the course page always works)", "Dossier Moodle (lien de module non confirmé ; la page du cours fonctionne toujours)"] }; }),
-    materialsNote: [CO("info", ["Links", "Liens"], ["Every card opens the PCP course page (course/view.php?id=973), where these folders are listed. The university PDFs are not copied here.", "Chaque carte ouvre la page du cours PCP (course/view.php?id=973), où ces dossiers sont listés. Les PDF de l'université ne sont pas copiés ici."])],
     cheat: CHEAT,
     exam: {
       props: [{ label: "Date", value: ["Thursday 5 November 2026, 9:00 (Tunis)", "Jeudi 5 novembre 2026, 9h00 (Tunis)"] }, { label: ["Length", "Durée"], value: ["1 hour", "1 heure"] }, { label: "Format", value: ["Written: Java code on paper", "Écrit : code Java sur papier"] }, { label: ["Allowed", "Autorisé"], value: ["No documents, no PC", "Documents et PC non autorisés"] }, { label: ["Past papers", "Anciens sujets"], value: ["2 exercises, each a story answered with full Java code", "2 exercices, chacun une « histoire » résolue en code Java complet"] }],

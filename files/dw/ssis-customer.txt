@@ -1,0 +1,601 @@
+"Customer_ID","Country","Gender","Personal_ID","Customer_Name","Customer_FirstName","Customer_LastName","Birth_Date","Customer_Address","Street_ID","Street_Number","Customer_Type_ID"
+1.00,"FR","M",,"Albert Collet","Albert","Collet",24/11/1940 00:00:00,"Square Edouard Vii 1",3500101176.00,"1",2030.00
+2.00,"ES","F",,"Mercedes Martínez","Mercedes","Martínez",15/1/1955 00:00:00,"Edificio 2",8300101034.00,"2",1010.00
+3.00,"IT","M",,"Pier Egidio Boeris","Pier Egidio","Boeris",1/7/1970 00:00:00,"Via M. Di Montesole 3",4800100416.00,"3",1040.00
+4.00,"US","M",,"James Kvarniq","James","Kvarniq",27/6/1970 00:00:00,"4382 Gralyn Rd",9260106519.00,"4382",1020.00
+5.00,"US","F",,"Sandrina Stephano","Sandrina","Stephano",9/7/1975 00:00:00,"6468 Cog Hill Ct",9260114570.00,"6468",2020.00
+6.00,"BE","M",,"Rent Van Lint","Rent","Van Lint",23/12/1945 00:00:00,"Mispadstr 2",1900104760.00,"2",1030.00
+7.00,"ES","F",,"Julián Escorihuela Monserrate","Julián","Escorihuela Monserrate",7/8/1975 00:00:00,"Co. De Los Claveles 561",8300100945.00,"561",1040.00
+8.00,"FI","M",,"Aki Ivonen","Aki","Ivonen",4/12/1935 00:00:00,"Valimotie 5",3400100281.00,"5",1020.00
+9.00,"DE","F",,"Cornelia Krahl","Cornelia","Krahl",27/2/1970 00:00:00,"Kallstadterstr. 9",3940106659.00,"9",2020.00
+10.00,"US","F",,"Karen Ballinger","Karen","Ballinger",18/10/1980 00:00:00,"425 Bryant Estates Dr",9260129395.00,"425",1040.00
+11.00,"DE","F",,"Elke Wallstab","Elke","Wallstab",16/8/1970 00:00:00,"Carl-Zeiss-Str. 15",3940108592.00,"15",1040.00
+12.00,"US","M",,"David Black","David","Black",12/4/1965 00:00:00,"1068 Haithcock Rd",9260103713.00,"1068",1030.00
+13.00,"DE","M",,"Markus Sepke","Markus","Sepke",21/7/1984 00:00:00,"Iese 1",3940105189.00,"1",2010.00
+14.00,"FR","M",,"Albert Eulert","Albert","Eulert",26/10/1960 00:00:00,"Bd des Bouvets 1",3500100630.00,"1",1010.00
+15.00,"IT","F",,"Claudia Cambiaggi","Claudia","Cambiaggi",26/11/1935 00:00:00,"Viale Matteotti 52",4800101500.00,"52",1010.00
+16.00,"DE","M",,"Ulrich Heyde","Ulrich","Heyde",16/1/1935 00:00:00,"Oberstr. 61",3940105865.00,"61",3010.00
+17.00,"US","M",,"Jimmie Evans","Jimmie","Evans",17/8/1950 00:00:00,"391 Greywood Dr",9260123306.00,"391",1030.00
+18.00,"US","M",,"Tonie Asmussen","Tonie","Asmussen",2/2/1950 00:00:00,"117 Langtree Ln",9260112361.00,"117",1020.00
+19.00,"DE","M",,"Oliver S. Füßling","Oliver S.","Füßling",23/2/1960 00:00:00,"Hechtsheimerstr. 18",3940106547.00,"18",2030.00
+20.00,"US","M",,"Michael Dineley","Michael","Dineley",17/4/1955 00:00:00,"2187 Draycroft Pl",9260118934.00,"2187",1030.00
+21.00,"ES","M",,"José Fernández de Mesa","José","Fernández de Mesa",16/6/1955 00:00:00,"C. Santa Hortensia 2",8300100682.00,"2",2010.00
+22.00,"TR","M",,"Vildan Akbas","Vildan","Akbas",5/6/1984 00:00:00,"Istilal Caddesi No: 4",9050100003.00,"4",1030.00
+23.00,"US","M",,"Tulio Devereaux","Tulio","Devereaux",2/12/1945 00:00:00,"1532 Ferdilah Ln",9260126679.00,"1532",3010.00
+24.00,"US","F",,"Robyn Klem","Robyn","Klem",2/6/1955 00:00:00,"435 Cambrian Way",9260115784.00,"435",3010.00
+25.00,"IT","M",,"Ssilvano Toninelli","Ssilvano","Toninelli",3/8/1984 00:00:00,"Via Lampedusa 10",4800102197.00,"10",1030.00
+26.00,"FR","M",,"Didier Serplet","Didier","Serplet",10/6/1984 00:00:00,"Rue du Piave 2",3500100022.00,"2",1020.00
+27.00,"US","F",,"Cynthia Mccluney","Cynthia","Mccluney",15/4/1965 00:00:00,"188 Grassy Creek Pl",9260105670.00,"188",3010.00
+28.00,"IL","M",,"Avinoam Tuvia","Avinoam","Tuvia",5/7/1984 00:00:00,"Mivtza Kadesh St 33",4750100001.00,"33",2030.00
+29.00,"AU","F",,"Candy Kinsey","Candy","Kinsey",8/7/1930 00:00:00,"21 Hotham Parade",1600103020.00,"21",3010.00
+30.00,"IT","F",,"Barbara Santangelo","Barbara","Santangelo",23/1/1984 00:00:00,"Via G.B. Stucchi 79",4800102656.00,"79",2020.00
+31.00,"US","F",,"Cynthia Martinez","Cynthia","Martinez",7/8/1955 00:00:00,"42 Arrowood Ln",9260128428.00,"42",2020.00
+32.00,"AU","M",,"Gavin Graham","Gavin","Graham",26/7/1935 00:00:00,"480 Princess Hwy",1600100985.00,"480",1010.00
+33.00,"DE","M",,"Rolf Robak","Rolf","Robak",24/2/1935 00:00:00,"Münsterstraße 67",3940102376.00,"67",1030.00
+34.00,"US","M",,"Alvan Goheen","Alvan","Goheen",18/1/1980 00:00:00,"844 Glen Eden Dr",9260111379.00,"844",1020.00
+35.00,"GB","M",,"Mike Merriott","Mike","Merriott",25/6/1950 00:00:00,"29 Lothian Road",9250101564.00,"29",1010.00
+36.00,"US","M",,"Phenix Hill","Phenix","Hill",2/4/1960 00:00:00,"417 Halstead Cir",9260128237.00,"417",3010.00
+37.00,"NL","M",,"J.P. Venus","J.P.","Venus",28/5/1984 00:00:00,"Jaffalaan 6",6300100615.00,"6",2020.00
+38.00,"US","M",,"Everet Menzie","Everet","Menzie",4/5/1930 00:00:00,"1131 Black Bird Ct",9260107593.00,"1131",3010.00
+39.00,"US","M",,"Alphone Greenwald","Alphone","Greenwald",25/7/1980 00:00:00,"4386 Hamrick Dr",9260123099.00,"4386",2030.00
+40.00,"FR","M",,"Mathieu Chatelin","Mathieu","Chatelin",25/7/1940 00:00:00,"Rue Faidherbe 7",3500100465.00,"7",3010.00
+41.00,"AU","M",,"Wendell Summersby","Wendell","Summersby",2/12/1960 00:00:00,"9 Angourie Court",1600101527.00,"9",1030.00
+42.00,"DE","M",,"Thomas Leitmann","Thomas","Leitmann",9/2/1975 00:00:00,"Carl Von Linde Str. 13",3940109715.00,"13",1020.00
+43.00,"PT","M",,"António Vidinha","António","Vidinha",1/12/1970 00:00:00,"Av.d.Nuno Álvares Pereira Nº 2",7350100042.00,"2",1040.00
+44.00,"FR","M",,"Jacky Segretain","Jacky","Segretain",28/5/1980 00:00:00,"Bld de la Republique 30",3500100201.00,"30",2020.00
+45.00,"US","F",,"Dianne Patchin","Dianne","Patchin",6/5/1975 00:00:00,"7818 Angier Rd",9260104847.00,"7818",2010.00
+46.00,"FR","F",,"Anne Robain","Anne","Robain",13/1/1984 00:00:00,"Rue Chaplin 32",3500101302.00,"32",1020.00
+47.00,"GB","M",,"Richard Tompsett","Richard","Tompsett",14/11/1980 00:00:00,"5 Windsor Road",9250106084.00,"5",1040.00
+48.00,"IT","F",,"Daniela Loro Piana","Daniela","Loro Piana",24/12/1965 00:00:00,"Via Casarini 19",4800100367.00,"19",1040.00
+49.00,"US","F",,"Annmarie Leveille","Annmarie","Leveille",16/7/1980 00:00:00,"185 Birchford Ct",9260104510.00,"185",2030.00
+50.00,"DE","M",,"Gert-Gunter Mendler","Gert-Gunter","Mendler",16/1/1930 00:00:00,"Humboldtstr. 1",3940105781.00,"1",2030.00
+51.00,"FR","M",,"Jean-Claude Nogues","Jean-Claude","Nogues",26/7/1970 00:00:00,"Avenue Jean Jaures 15",3500101547.00,"15",3010.00
+52.00,"US","M",,"Yan Kozlowski","Yan","Kozlowski",6/4/1965 00:00:00,"1233 Hunters Crossing",9260116235.00,"1233",1030.00
+53.00,"AU","F",,"Dericka Pockran","Dericka","Pockran",20/6/1950 00:00:00,"131 Franklin St",1600103258.00,"131",1040.00
+54.00,"SE","M",,"Ingemar Andersson","Ingemar","Andersson",28/6/1955 00:00:00,"Västmannagatan 12",8500100463.00,"12",1040.00
+55.00,"US","F",,"Barner Matthews","Barner","Matthews",27/7/1970 00:00:00,"76 Creekside Dr",9260125331.00,"76",1010.00
+56.00,"US","M",,"Roy Siferd","Roy","Siferd",1/2/1930 00:00:00,"334 Kingsmill Rd",9260111871.00,"334",1030.00
+57.00,"ZA","M",,"Rauol Suliman","Rauol","Suliman",26/3/1940 00:00:00,"Ewald Road 855",8010100022.00,"855",1030.00
+58.00,"IT","M",,"Vilmo Bortesi","Vilmo","Bortesi",23/9/1945 00:00:00,"Via Delle Terme Di Caracalla 1",4800103784.00,"1",2020.00
+59.00,"GB","M",,"Martin Barnes","Martin","Barnes",4/9/1930 00:00:00,"6 Agar Street",9250102798.00,"6",1030.00
+60.00,"US","F",,"Tedi Lanzarone","Tedi","Lanzarone",23/5/1965 00:00:00,"2429 Hunt Farms Ln",9260101262.00,"2429",1030.00
+61.00,"DE","M",,"Carsten Maestrini","Carsten","Maestrini",8/7/1940 00:00:00,"Münzstr. 28",3940108887.00,"28",2030.00
+62.00,"US","M",,"Ihsan Robertson-Hector","Ihsan","Robertson-Hector",3/5/1980 00:00:00,"4282 Hilltop Rd",9260109145.00,"4282",1010.00
+63.00,"US","M",,"James Klisurich","James","Klisurich",25/12/1965 00:00:00,"25 Briarforest Pl",9260125492.00,"25",2020.00
+64.00,"BJ","M",,"Djosse Atchade","Djosse","Atchade",20/3/1945 00:00:00,"Benin str 1",3110100001.00,"1",1020.00
+65.00,"DE","F",,"Ines Deisser","Ines","Deisser",20/7/1965 00:00:00,"Bahnweg 1",3940100176.00,"1",1020.00
+66.00,"AT","F",,"Brigitte Harrand","Brigitte","Harrand",20/7/1982 00:00:00,"am Modenapark 2",1650100377.00,"2",2010.00
+67.00,"IT","F",,"Laura Donigaglia","Laura","Donigaglia",1/4/1935 00:00:00,"Viale Dante Alighieri 2",4800104244.00,"2",3010.00
+68.00,"IT","M",,"Giorgio Settineri","Giorgio","Settineri",3/11/1930 00:00:00,"Piazzale Aldo Moro 4",4800103549.00,"4",1020.00
+69.00,"US","F",,"Patricia Bertolozzi","Patricia","Bertolozzi",13/5/1975 00:00:00,"4948 Dargan Hills Dr",9260116402.00,"4948",1020.00
+70.00,"CH","M",,"Frode Barazzoni","Frode","Barazzoni",4/8/1982 00:00:00,"Stansstaderstrasse 1",8550100096.00,"1",3010.00
+71.00,"US","F",,"Viola Folsom","Viola","Folsom",23/9/1965 00:00:00,"290 Glenwood Ave",9260124130.00,"290",2020.00
+72.00,"ES","F",,"Mónica Aranda Unzurrunzaga","Mónica","Aranda Unzurrunzaga",4/1/1975 00:00:00,"Apartado 64",8300100254.00,"64",1020.00
+73.00,"ES","F",,"Pilar Bachs Pallarés","Pilar","Bachs Pallarés",4/1/1945 00:00:00,"C. Conde de Peñalver 68",8300100485.00,"68",1030.00
+74.00,"IT","F",,"Pamela Sandrucci","Pamela","Sandrucci",17/11/1950 00:00:00,"Via Sile 3",4800102386.00,"3",2020.00
+75.00,"US","M",,"Mikel Spetz","Mikel","Spetz",18/6/1980 00:00:00,"101 Knoll Ridge Ln",9260108068.00,"101",1020.00
+76.00,"GB","F",,"Marcelle Fani-Kayode","Marcelle","Fani-Kayode",23/10/1982 00:00:00,"1 Star Barn Road",9250100780.00,"1",2020.00
+77.00,"DE","F",,"Stefanie Gecht","Stefanie","Gecht",17/7/1975 00:00:00,"Xantenerstr. 81",3940105972.00,"81",2020.00
+78.00,"GB","M",,"Steph Usborne","Steph","Usborne",28/3/1935 00:00:00,"18 Doncaster Road",9250106861.00,"18",2030.00
+79.00,"US","F",,"Najma Hicks","Najma","Hicks",22/1/1982 00:00:00,"9658 Dinwiddie Ct",9260101874.00,"9658",1030.00
+80.00,"NO","F",,"Therese Martinsen","Therese","Martinsen",25/10/1955 00:00:00,"Fred Olsens Gate 2",6850100310.00,"2",2030.00
+81.00,"AT","M",,"Tianzhu Egger","Tianzhu","Egger",17/4/1965 00:00:00,"Fleischmarkt 2",1650100184.00,"2",2030.00
+82.00,"FI","M",,"Juha Viholainen","Juha","Viholainen",25/7/1984 00:00:00,"Elimäenkatu 20",3400100450.00,"20",2010.00
+83.00,"DE","F",,"Katrin Singldinger","Katrin","Singldinger",5/4/1960 00:00:00,"Friedrichsplatz 2",3940102074.00,"2",2010.00
+84.00,"FR","F",,"Catherine Gaillard","Catherine","Gaillard",16/4/1950 00:00:00,"Route d'Espagne 97",3500101472.00,"97",2030.00
+85.00,"US","F",,"Neatta Duckworth","Neatta","Duckworth",1/5/1975 00:00:00,"1506 Dahlgreen Rd",9260129415.00,"1506",2010.00
+86.00,"GB","M",,"Andy Goldsmith","Andy","Goldsmith",11/10/1935 00:00:00,"5 Coombe Road",9250102487.00,"5",1030.00
+87.00,"FR","F",,"Marie-Helene Destombes","Marie-Helene","Destombes",15/1/1975 00:00:00,"Rue d'Assas 90",3500101043.00,"90",1010.00
+88.00,"US","M",,"Attila Gibbs","Attila","Gibbs",19/2/1955 00:00:00,"3815 Askham Dr",9260100179.00,"3815",1030.00
+89.00,"US","F",,"Wynella Lewis","Wynella","Lewis",28/9/1930 00:00:00,"2572 Glenharden Dr",9260116551.00,"2572",1040.00
+90.00,"US","F",,"Kyndal Hooks","Kyndal","Hooks",1/8/1960 00:00:00,"252 Clay St",9260111614.00,"252",2030.00
+91.00,"IT","F",,"Rosy Dalli","Rosy","Dalli",11/4/1955 00:00:00,"Via C.Saladini 27",4800102008.00,"27",3010.00
+92.00,"US","M",,"Lendon Celii","Lendon","Celii",14/9/1940 00:00:00,"421 Blue Horizon Dr",9260117676.00,"421",1020.00
+93.00,"CH","F",,"Nathalie Mühlig","Nathalie","Mühlig",18/10/1960 00:00:00,"General Suisan Quai 19",8550100104.00,"19",1040.00
+94.00,"GB","F",,"Samantha Best","Samantha","Best",20/11/1965 00:00:00,"15 Cavendish Sq",9250103281.00,"15",1040.00
+95.00,"NL","M",,"F.R.E. Kuijpers","F.R.E.","Kuijpers",17/10/1950 00:00:00,"Verwersstraat 13",6300100015.00,"13",1030.00
+96.00,"GB","M",,"Jim Coates","Jim","Coates",9/12/1950 00:00:00,"1 Burston Rd",9250103201.00,"1",2010.00
+97.00,"ES","M",,"Francisco Izquierdo Pereira","Francisco","Izquierdo Pereira",11/12/1960 00:00:00,"C. Industria 36",8300100326.00,"36",3010.00
+98.00,"US","F",,"Pershell Wittich","Pershell","Wittich",26/10/1955 00:00:00,"286 Arthur Pierce Rd",9260108396.00,"286",3010.00
+99.00,"US","F",,"Geanie Riddle","Geanie","Riddle",21/8/1960 00:00:00,"3627 Dahlgreen Rd",9260103908.00,"3627",2010.00
+100.00,"ZA","M",,"George Lotz","George","Lotz",26/1/1950 00:00:00,"Fourways Office Park 1",8010100032.00,"1",1030.00
+101.00,"FR","F",,"Christine Herfroy","Christine","Herfroy",14/2/1940 00:00:00,"Rue de Vantadour 4",3500101106.00,"4",1030.00
+102.00,"US","M",,"Orlando Movassaghi","Orlando","Movassaghi",12/7/1945 00:00:00,"176 Conifer Dr",9260120821.00,"176",2010.00
+103.00,"US","F",,"Judy Hicks","Judy","Hicks",17/1/1970 00:00:00,"2001 Lake Boone Trl",9260107756.00,"2001",1010.00
+104.00,"US","F",,"Markisha Schopen","Markisha","Schopen",2/3/1965 00:00:00,"1533 Canterfield Rd",9260126060.00,"1533",3010.00
+105.00,"FR","M",,"Guillaume Delerba","Guillaume","Delerba",24/3/1984 00:00:00,"Rue Auguste Lancon 17",3500100912.00,"17",2020.00
+106.00,"FR","M",,"Jean-Joseph Bouquin","Jean-Joseph","Bouquin",16/12/1970 00:00:00,"Avenue des Nations - Bp 50394 16",3500101287.00,"16",2020.00
+107.00,"US","F",,"Marsah Gillespie","Marsah","Gillespie",28/10/1950 00:00:00,"214 Enid Pl",9260125050.00,"214",2020.00
+108.00,"DE","F",,"Katja Delesen","Katja","Delesen",18/2/1982 00:00:00,"Elbestr. 3",3940106776.00,"3",1020.00
+109.00,"GB","M",,"Jim Ziolowski","Jim","Ziolowski",18/2/1940 00:00:00,"32 Hertford Street",9250100920.00,"32",2030.00
+110.00,"TR","F",,"Ayca Yolgegenli","Ayca","Yolgegenli",24/10/1965 00:00:00,"Korzay Apt. No: 1",9050100021.00,"1",3010.00
+111.00,"AU","F",,"Karolina Dokter","Karolina","Dokter",28/12/1970 00:00:00,"28 Munibung Road",1600102072.00,"28",1030.00
+112.00,"US","M",,"Sanjay Avram","Sanjay","Avram",20/6/1982 00:00:00,"284 Fort Sumter Rd",9260126535.00,"284",1020.00
+113.00,"CH","F",,"Anna Spinelli","Anna","Spinelli",14/12/1930 00:00:00,"Avenue Nestle 16",8550100102.00,"16",1040.00
+114.00,"ES","F",,"Mónica Arévalo","Mónica","Arévalo",18/1/1975 00:00:00,"Av. De la Moncloa 1",8300100400.00,"1",1010.00
+115.00,"US","M",,"Janero Fredley","Janero","Fredley",20/2/1955 00:00:00,"351 Aspen Mountain Ct",9260103862.00,"351",2010.00
+116.00,"FR","M",,"Francois Fabre","Francois","Fabre",9/3/1935 00:00:00,"Bd des Chenes - Bat Champagne 73",3500100355.00,"73",1020.00
+117.00,"US","M",,"Carson Galloway","Carson","Galloway",13/11/1935 00:00:00,"577 Beech Wood Ct",9260107095.00,"577",2020.00
+118.00,"BE","F",,"Annelies Paasonen","Annelies","Paasonen",13/7/1940 00:00:00,"Grand Place 30",1900110518.00,"30",1010.00
+119.00,"SE","M",,"Karl Krafft","Karl","Krafft",4/3/1984 00:00:00,"Hornsgatan 13",8500100325.00,"13",1030.00
+120.00,"US","F",,"Joann Ayscue","Joann","Ayscue",6/5/1935 00:00:00,"2567 Hawthorne Way",9260105317.00,"2567",1040.00
+121.00,"IT","M",,"Carlo Luppi","Carlo","Luppi",8/10/1950 00:00:00,"Via Tuscolana 541",4800104104.00,"541",1040.00
+122.00,"FR","F",,"Florence Ibach","Florence","Ibach",24/6/1970 00:00:00,"Avenue de Friedland 1",3500100783.00,"1",2010.00
+123.00,"GB","M",,"Ernie Hotten","Ernie","Hotten",4/5/1970 00:00:00,"103 Belsize Road",9250102970.00,"103",1040.00
+124.00,"US","M",,"Stuart Agnor","Stuart","Agnor",28/9/1984 00:00:00,"1528 Langston Mill Ct",9260116062.00,"1528",2010.00
+125.00,"IT","F",,"Stefania Secolo","Stefania","Secolo",12/8/1945 00:00:00,"Via d'Onofrio 147",4800104145.00,"147",1040.00
+126.00,"US","F",,"Meilisa Borgwardt","Meilisa","Borgwardt",7/3/1960 00:00:00,"145 Julie Ann Ct",9260123937.00,"145",3010.00
+127.00,"GB","F",,"Vivien Vager","Vivien","Vager",17/9/1955 00:00:00,"1 High Street",9250107578.00,"1",1010.00
+128.00,"GB","M",,"Ishbel Reeves","Ishbel","Reeves",1/7/1975 00:00:00,"3 Midford Place",9250104669.00,"3",1020.00
+129.00,"US","F",,"Caroline Wedde","Caroline","Wedde",17/4/1975 00:00:00,"988 Calumet Dr",9260112638.00,"988",3010.00
+130.00,"DE","M",,"Rudolf Wallasch","Rudolf","Wallasch",10/11/1970 00:00:00,"Promenadenweg 8",3940100368.00,"8",1030.00
+131.00,"IT","M",,"Anzierg Priasca","Anzierg","Priasca",1/6/1982 00:00:00,"Corso Emilia 4",4800104686.00,"4",2010.00
+132.00,"FR","F",,"Janick Durier","Janick","Durier",21/8/1940 00:00:00,"Rue de la Madeleine 12",3500100339.00,"12",3010.00
+133.00,"FR","F",,"Valerie Neyrolles","Valerie","Neyrolles",27/6/1975 00:00:00,"Rue Huchard 33",3500100963.00,"33",1020.00
+134.00,"NL","F",,"I.H. Uytendaele","I.H.","Uytendaele",28/1/1984 00:00:00,"Boompjes 115",6300101132.00,"115",2010.00
+135.00,"US","F",,"Kertia Thomas","Kertia","Thomas",1/10/1930 00:00:00,"198 Enka Dr",9260107461.00,"198",1010.00
+136.00,"TR","M",,"Orhan Canko","Orhan","Canko",25/4/1970 00:00:00,"A Blok No: 2",9050100008.00,"2",1020.00
+137.00,"US","M",,"William Cejka","William","Cejka",24/3/1965 00:00:00,"985 Graham Newton Rd",9260129880.00,"985",2030.00
+138.00,"DE","F",,"Reinhild Von Bohlen","Reinhild","Von Bohlen",5/1/1975 00:00:00,"Jahnstr. 2",3940102315.00,"2",1010.00
+139.00,"SE","F",,"Elisabeth Andersson","Elisabeth","Andersson",27/9/1935 00:00:00,"Karlavägen 17",8500100332.00,"17",1040.00
+140.00,"US","M",,"Corky Yeary","Corky","Yeary",16/2/1975 00:00:00,"1685 Glengarry Dr",9260117482.00,"1685",1030.00
+141.00,"US","M",,"Jonathan Edger","Jonathan","Edger",2/4/1940 00:00:00,"149 Carrington Dr",9260112658.00,"149",2010.00
+142.00,"US","M",,"Albert Chuaprasert","Albert","Chuaprasert",12/6/1945 00:00:00,"2923 Brookwood Dr",9260110132.00,"2923",2030.00
+143.00,"US","F",,"Colisha Hocutt","Colisha","Hocutt",13/12/1982 00:00:00,"1427 Belle Isle Ct",9260110747.00,"1427",2030.00
+144.00,"US","M",,"Thomas Eberly","Thomas","Eberly",1/7/1930 00:00:00,"944 Dumbarton Ct",9260123116.00,"944",1030.00
+145.00,"AT","M",,"Thomas Joksch","Thomas","Joksch",7/9/1960 00:00:00,"Lieferinger Hauptstr. 2",1650100118.00,"2",1010.00
+146.00,"GR","M",,"J P Tsamourtzis","J P","Tsamourtzis",18/2/1950 00:00:00,"Thivaidos & Komillou Str 4",4000100002.00,"4",1030.00
+147.00,"DE","F",,"Ulrike Schönbach","Ulrike","Schönbach",11/5/1970 00:00:00,"Hitdorferstr. 2",3940106284.00,"2",1040.00
+148.00,"GB","F",,"Rebecca Mcdowell","Rebecca","Mcdowell",15/1/1945 00:00:00,"2 Vauxhall St",9250105702.00,"2",2020.00
+149.00,"US","F",,"Jamel Poon","Jamel","Poon",26/5/1975 00:00:00,"126 Johnsdale Rd",9260100666.00,"126",1040.00
+150.00,"US","F",,"Mary-Claire Beckwit","Mary-Claire","Beckwit",26/11/1970 00:00:00,"491 Greywood Dr",9260105487.00,"491",1020.00
+151.00,"GB","M",,"Alex Hammersly","Alex","Hammersly",24/4/1965 00:00:00,"11 Bush Lane",9250103205.00,"11",1030.00
+152.00,"FI","M",,"Olli-Matti Laitinen","Olli-Matti","Laitinen",15/10/1982 00:00:00,"Eteläesplanadi 7",3400100131.00,"7",1030.00
+153.00,"US","F",,"Paula Fluck","Paula","Fluck",23/7/1965 00:00:00,"1 Hamstead Crossing Dr",9260126705.00,"1",3010.00
+154.00,"FR","M",,"Jacques Laupy","Jacques","Laupy",9/5/1960 00:00:00,"Rue Menars 1",3500100989.00,"1",3010.00
+155.00,"US","M",,"Michael Goldthwaite","Michael","Goldthwaite",16/12/1984 00:00:00,"1712 Hunt Club Ln",9260124759.00,"1712",1020.00
+156.00,"FR","M",,"Joseph Charbonnez","Joseph","Charbonnez",14/10/1930 00:00:00,"Avenue Le Jour Se Leve 156",3500100120.00,"156",1020.00
+157.00,"FR","M",,"Marc Echard","Marc","Echard",11/10/1980 00:00:00,"Av du General de Gaulle 8",3500101185.00,"8",1040.00
+158.00,"IT","M",,"Daniele de Benedetti","Daniele","de Benedetti",18/7/1930 00:00:00,"Via Valletta 15",4800101593.00,"15",3010.00
+159.00,"US","M",,"Mukundray Zarkos","Mukundray","Zarkos",14/2/1940 00:00:00,"595 Lakeland Dr",9260110255.00,"595",2020.00
+160.00,"US","M",,"Feddo Konzman","Feddo","Konzman",18/2/1975 00:00:00,"3728 Canopy Oak Ct",9260110511.00,"3728",1040.00
+161.00,"US","M",,"Crae Hosley","Crae","Hosley",7/7/1980 00:00:00,"2610 Horton St",9260105686.00,"2610",2030.00
+162.00,"US","M",,"Kevin Odell","Kevin","Odell",28/4/1984 00:00:00,"203 Cranston Rd",9260109508.00,"203",3010.00
+163.00,"GB","F",,"Georgette Goulsbra","Georgette","Goulsbra",5/1/1970 00:00:00,"1 Chalk Hill Road",9250103298.00,"1",1020.00
+164.00,"US","M",,"Wiley Kuntz","Wiley","Kuntz",15/1/1970 00:00:00,"425 Holbrook Ct",9260100253.00,"425",2030.00
+165.00,"CH","F",,"Alina Weber","Alina","Weber",7/4/1955 00:00:00,"Fernsehstr. 1",8550100118.00,"1",1020.00
+166.00,"US","M",,"William Matthews","William","Matthews",14/4/1945 00:00:00,"5016 Bryan Rd",9260107371.00,"5016",3010.00
+167.00,"US","M",,"Anthony El-Abbasy","Anthony","El-Abbasy",10/4/1975 00:00:00,"3265 Delmont Dr",9260120416.00,"3265",1020.00
+168.00,"US","F",,"Chiara Ji","Chiara","Ji",27/9/1975 00:00:00,"84 Hidden Pond Rd",9260120197.00,"84",2020.00
+169.00,"SI","M",,"Sandi Barièiè","Sandi","Barièiè",24/3/1950 00:00:00,"Trg Republike 1",7890100314.00,"1",2010.00
+170.00,"US","M",,"Stoney Samuel","Stoney","Samuel",10/3/1970 00:00:00,"104 Cross Creek Ct",9260126845.00,"104",3010.00
+171.00,"AU","M",,"Robert Bowerman","Robert","Bowerman",22/2/1970 00:00:00,"21 Parliament House c/- Senator t",1600101555.00,"21",1040.00
+172.00,"ES","F",,"Yolanda Echanove","Yolanda","Echanove",15/8/1982 00:00:00,"C. Triana 38",8300100340.00,"38",2010.00
+173.00,"US","F",,"Virginia Phillippe","Virginia","Phillippe",8/9/1935 00:00:00,"407 Bonnibee Ct",9260125363.00,"407",1030.00
+174.00,"US","M",,"Lorenzo Cusher","Lorenzo","Cusher",5/8/1955 00:00:00,"710 Autumn Chase Dr",9260109312.00,"710",3010.00
+175.00,"US","F",,"Benilde Cover","Benilde","Cover",28/3/1965 00:00:00,"2055 Clanton St",9260121697.00,"2055",2020.00
+176.00,"IT","M",,"Giuseppe Massimi","Giuseppe","Massimi",21/10/1965 00:00:00,"Piazza Martiri Della Liberta' 1",4800100841.00,"1",1010.00
+177.00,"IT","F",,"Rosalba Mengoli","Rosalba","Mengoli",10/10/1965 00:00:00,"Via Dell'Industria 3",4800102630.00,"3",2030.00
+178.00,"US","M",,"Cash Peoples","Cash","Peoples",24/2/1965 00:00:00,"3902 Great Point Pl",9260126370.00,"3902",1010.00
+179.00,"DE","F",,"Wiltraut Hessner","Wiltraut","Hessner",7/1/1975 00:00:00,"Stephensonstraße 1",3940103315.00,"1",1010.00
+180.00,"ES","M",,"Ángel Bethencourt Gallagher","Ángel","Bethencourt Gallagher",3/11/1955 00:00:00,"Av. Del Hotel 9",8300100979.00,"9",2030.00
+181.00,"FI","M",,"Pekka Ollikainen","Pekka","Ollikainen",16/8/1945 00:00:00,"Laivurinkatu 2",3400100351.00,"2",1020.00
+182.00,"GB","M",,"Dierdre Andrews","Dierdre","Andrews",18/6/1940 00:00:00,"1 Epsworth Street",9250103637.00,"1",1010.00
+183.00,"AU","M",,"Duncan Robertshawe","Duncan","Robertshawe",25/3/1940 00:00:00,"18 Fletcher Rd",1600100760.00,"18",1020.00
+184.00,"US","M",,"Lee Turnbo","Lee","Turnbo",2/1/1955 00:00:00,"572 Charles B Root Wynd",9260102572.00,"572",1030.00
+185.00,"FR","M",,"Gerald Gasparini","Gerald","Gasparini",8/12/1965 00:00:00,"Allee des Ecuries 2",3500101543.00,"2",1020.00
+186.00,"US","F",,"Fioina Zalewski","Fioina","Zalewski",14/3/1945 00:00:00,"308 Ashley Glen Dr",9260105580.00,"308",2010.00
+187.00,"US","F",,"Penny Pajor","Penny","Pajor",11/4/1950 00:00:00,"734 Fern Abbey Ln",9260116199.00,"734",1030.00
+188.00,"US","M",,"Christopher Metzger","Christopher","Metzger",22/5/1984 00:00:00,"514 Cowper Dr",9260104053.00,"514",2030.00
+189.00,"US","F",,"Debbie Dowding","Debbie","Dowding",22/9/1955 00:00:00,"120 Carrington Dr",9260128523.00,"120",2010.00
+190.00,"FR","M",,"Bruno Catoire","Bruno","Catoire",13/10/1970 00:00:00,"Rue Lecourbe 322",3500100978.00,"322",1040.00
+191.00,"US","F",,"Sheril Levin","Sheril","Levin",12/3/1940 00:00:00,"72 Bertie Dr",9260111132.00,"72",2030.00
+192.00,"US","F",,"Armenthia Orson","Armenthia","Orson",25/1/1975 00:00:00,"585 Canterfield Rd",9260109534.00,"585",1030.00
+193.00,"IT","F",,"Valerie Genzardi","Valerie","Genzardi",10/12/1940 00:00:00,"Via Tagliamento 14",4800104086.00,"14",3010.00
+194.00,"US","F",,"Sukai Endredy","Sukai","Endredy",8/3/1930 00:00:00,"91 Carolina Ave",9260115352.00,"91",1040.00
+195.00,"AU","M",,"Cosi Rimmington","Cosi","Rimmington",11/11/1940 00:00:00,"4 Burke Street Woolloongabba",1600101663.00,"4",1020.00
+196.00,"GB","M",,"Paul Knox","Paul","Knox",21/11/1965 00:00:00,"19 Queens Anne Gate",9250105105.00,"19",3010.00
+197.00,"US","M",,"Rayn Svitanek","Rayn","Svitanek",13/10/1975 00:00:00,"160 Church Rd",9260110814.00,"160",2030.00
+198.00,"GB","F",,"Claire Carus","Claire","Carus",6/8/1935 00:00:00,"5 Nightingale Way",9250107403.00,"5",1020.00
+199.00,"US","M",,"Cherod Edwards-Roush","Cherod","Edwards-Roush",7/3/1965 00:00:00,"784 Bent Fork Cir",9260107584.00,"784",2030.00
+200.00,"SE","F",,"Camilla Aidell","Camilla","Aidell",21/3/1940 00:00:00,"Gustavslundsvägen 2",8500100013.00,"2",3010.00
+201.00,"US","M",,"Nogarji Mcadam","Nogarji","Mcadam",2/3/1930 00:00:00,"252 English Ivy Ln",9260127523.00,"252",2010.00
+202.00,"MK","M",,"Dimitar Pavlovska","Dimitar","Pavlovska",9/3/1982 00:00:00,"Ul. ""K.J. Pitu"" 2",5740100015.00,"2",1010.00
+203.00,"FR","M",,"Eric Bendali","Eric","Bendali",15/10/1935 00:00:00,"Boulevard du 1er Chasseurs 23",3500100007.00,"23",2020.00
+204.00,"US","F",,"Frances Kern","Frances","Kern",18/4/1955 00:00:00,"2048 Axum Rd",9260109656.00,"2048",3010.00
+205.00,"ES","F",,"María José Hernández","María José","Hernández",7/3/1945 00:00:00,"Av. Llano Castellano 32",8300100405.00,"32",2020.00
+206.00,"US","F",,"Jo Beth Van Grinsven","Jo Beth","Van Grinsven",3/5/1965 00:00:00,"2384 Ashwood Dr",9260106162.00,"2384",2020.00
+207.00,"CH","M",,"Giuseppe Schärer","Giuseppe","Schärer",21/12/1950 00:00:00,"Lichtstr. 19",8550100017.00,"19",1010.00
+208.00,"US","M",,"Kevin Bellezza","Kevin","Bellezza",17/12/1935 00:00:00,"1305 Country Forest Dr",9260126202.00,"1305",1010.00
+209.00,"IT","M",,"Folco Perot","Folco","Perot",24/3/1950 00:00:00,"Vai C. Battisti 4",4800100454.00,"4",2020.00
+210.00,"US","M",,"Takeru Alley","Takeru","Alley",14/11/1935 00:00:00,"67 Cedarpost Dr",9260127450.00,"67",1030.00
+211.00,"FR","F",,"Isabelle Le Texier","Isabelle","Le Texier",15/12/1945 00:00:00,"Rue du General de Gaulle 80",3500101458.00,"80",2010.00
+212.00,"ES","M",,"Joan García Fuentes","Joan","García Fuentes",27/6/1935 00:00:00,"Plaza de España 1",8300100776.00,"1",3010.00
+213.00,"GB","M",,"Steve Arnold","Steve","Arnold",25/9/1960 00:00:00,"44 Cambridge Grove",9250102104.00,"44",1030.00
+214.00,"NL","F",,"M.C. de Koning","M.C.","de Koning",24/4/1982 00:00:00,"Amsterdamseweg 1",6300100489.00,"1",3010.00
+215.00,"AU","M",,"Ramesh Trentholme","Ramesh","Trentholme",16/5/1945 00:00:00,"23 Benjamin Street",1600102721.00,"23",2020.00
+216.00,"DE","M",,"Wolfgang H. Ballweg","Wolfgang H.","Ballweg",13/3/1975 00:00:00,"Rüdesheimer Str. 3",3940110061.00,"3",1020.00
+217.00,"GB","M",,"Nigel Miller","Nigel","Miller",5/7/1935 00:00:00,"6 Wilna Road",9250105849.00,"6",1010.00
+218.00,"US","M",,"David Engels","David","Engels",3/4/1945 00:00:00,"885 Foggy Morning Ct",9260120518.00,"885",1010.00
+219.00,"US","F",,"Tenaya Williams","Tenaya","Williams",14/10/1965 00:00:00,"2393 Green Lantern St",9260101947.00,"2393",1010.00
+220.00,"US","F",,"Lakeya Newbold","Lakeya","Newbold",10/12/1980 00:00:00,"22 Banks Rd",9260110081.00,"22",1040.00
+221.00,"DE","M",,"Bernhard Klass","Bernhard","Klass",12/11/1980 00:00:00,"Fetscher-Str. 68",3940102068.00,"68",1040.00
+222.00,"FR","F",,"Celine Lacroux","Celine","Lacroux",18/10/1950 00:00:00,"Bd Bessieres 47",3500100804.00,"47",2030.00
+223.00,"ES","M",,"Javier Zamora","Javier","Zamora",15/9/1982 00:00:00,"C. Don Ramón de la Cruz 1",8300100496.00,"1",2030.00
+224.00,"GB","F",,"Anne Pringle","Anne","Pringle",21/2/1935 00:00:00,"1 Atholl Crescent",9250101446.00,"1",2010.00
+225.00,"PT","M",,"Ricardo Quintas Santos Castro","Ricardo","Quintas Santos Castro",27/6/1970 00:00:00,"Rua Orlando Da Silva Rocha Nº 2",7350100002.00,"2",1010.00
+226.00,"US","M",,"Travis Gaetti","Travis","Gaetti",5/10/1935 00:00:00,"5528 Helmsdale Dr",9260127368.00,"5528",1030.00
+227.00,"IT","F",,"Dunia Caldera","Dunia","Caldera",14/10/1945 00:00:00,"Via Salomone 9",4800102356.00,"9",1030.00
+228.00,"DE","M",,"Dieter Weilnhammer","Dieter","Weilnhammer",2/2/1930 00:00:00,"Brienner Str. 9",3940107097.00,"9",2010.00
+229.00,"DE","F",,"Elke Von Der Eltz","Elke","Von Der Eltz",9/12/1982 00:00:00,"Prinzregentenstr. 6",3940107442.00,"6",1030.00
+230.00,"FR","M",,"Yves Pierre Mencia-Huerta","Yves Pierre","Mencia-Huerta",1/7/1984 00:00:00,"Rue de l'Abbe Roger Derry 1",3500101114.00,"1",2020.00
+231.00,"US","M",,"Anthony Williamson","Anthony","Williamson",2/7/1945 00:00:00,"4522 Laughridge Dr",9260115163.00,"4522",3010.00
+232.00,"US","F",,"Isalde Garcia","Isalde","Garcia",25/7/1950 00:00:00,"3443 Davishire Dr",9260118286.00,"3443",3010.00
+233.00,"AU","F",,"Faye Morrisson","Faye","Morrisson",23/8/1982 00:00:00,"9 Corporate Avenue",1600102713.00,"9",1010.00
+234.00,"AU","F",,"Dallas Barwick","Dallas","Barwick",14/3/1965 00:00:00,"121 Jedda Road",1600102812.00,"121",1020.00
+235.00,"US","F",,"Senora Vaupel","Senora","Vaupel",24/9/1940 00:00:00,"92 Downing Way Ct",9260124172.00,"92",2010.00
+236.00,"US","F",,"Rita Barchaw","Rita","Barchaw",23/10/1984 00:00:00,"3579 Brentwood Rd",9260129463.00,"3579",2030.00
+237.00,"US","M",,"Ziba Hazinski","Ziba","Hazinski",2/7/1960 00:00:00,"857 Exacta Ln",9260105884.00,"857",1010.00
+238.00,"DE","F",,"Gabriele Krug","Gabriele","Krug",2/11/1970 00:00:00,"Pascalstr. 8",3940100044.00,"8",2030.00
+239.00,"GB","M",,"Mark Pickersgill","Mark","Pickersgill",3/11/1980 00:00:00,"1 London Road",9250101265.00,"1",2030.00
+240.00,"AT","M",,"Helmut Matzenauer","Helmut","Matzenauer",14/6/1980 00:00:00,"Siemensstraße 1",1650100318.00,"1",2010.00
+241.00,"GB","M",,"Stephen Walker","Stephen","Walker",14/6/1945 00:00:00,"5 Chancery Lane",9250103304.00,"5",2030.00
+242.00,"IT","F",,"Angelo Leoni","Angelo","Leoni",25/8/1984 00:00:00,"Piazzale Giulio Pastore 2",4800103558.00,"2",2010.00
+243.00,"US","F",,"Honey Vallery-Bevan","Honey","Vallery-Bevan",23/1/1940 00:00:00,"596 Gray Owl Garth",9260112826.00,"596",1040.00
+244.00,"GR","M",,"J P Van Waveren","J P","Van Waveren",7/4/1980 00:00:00,"Komillou Str 2",4000100001.00,"2",2010.00
+245.00,"US","M",,"Christopher Langley","Christopher","Langley",20/7/1960 00:00:00,"17 Irongate Dr",9260117634.00,"17",1040.00
+246.00,"AU","F",,"Caty Paino","Caty","Paino",3/8/1935 00:00:00,"13 Loch Maree Ave",1600100505.00,"13",1010.00
+247.00,"FR","M",,"Philippe Chabanon","Philippe","Chabanon",23/7/1984 00:00:00,"Rue du Docteur Finlay 16",3500101153.00,"16",1010.00
+248.00,"DE","M",,"Wilfried Klingenburg","Wilfried","Klingenburg",15/3/1960 00:00:00,"Wolf-Hirth-Str. 1",3940105508.00,"1",1020.00
+249.00,"SE","M",,"Hans Andersson","Hans","Andersson",23/6/1935 00:00:00,"Kaninvägen 4",8500100024.00,"4",2030.00
+250.00,"US","M",,"Daniel Lukosius","Daniel","Lukosius",5/11/1950 00:00:00,"5000 Hyannis Dr",9260118122.00,"5000",1020.00
+251.00,"FR","M",,"Laurent Ollivon","Laurent","Ollivon",16/7/1982 00:00:00,"Rue du General Leclerc 14",3500100387.00,"14",2020.00
+252.00,"NL","M",,"A.E. Tolboom","A.E.","Tolboom",23/2/1945 00:00:00,"Frederik Hendrikplein 2",6300100039.00,"2",2020.00
+253.00,"DE","M",,"Claus-Peter Noppen","Claus-Peter","Noppen",2/9/1970 00:00:00,"Goethering 16",3940108166.00,"16",1010.00
+254.00,"DE","F",,"Enja Hirsch","Enja","Hirsch",6/3/1960 00:00:00,"Alfred-Herrhausen-Allee 7",3940102651.00,"7",3010.00
+255.00,"IT","F",,"Gianluigi de Rubeis","Gianluigi","de Rubeis",27/4/1965 00:00:00,"Via Lecco 38",4800105262.00,"38",2010.00
+256.00,"US","F",,"Mary Soutesz","Mary","Soutesz",4/11/1984 00:00:00,"1586 Dwight Rowland Rd",9260111686.00,"1586",2030.00
+257.00,"US","F",,"Patricia Grahek","Patricia","Grahek",8/9/1975 00:00:00,"428 Avent Ferry Rd",9260107400.00,"428",2010.00
+258.00,"FI","F",,"Ella Nevamaa","Ella","Nevamaa",27/11/1950 00:00:00,"Elimäenkatu 3",3400100123.00,"3",1020.00
+259.00,"DE","M",,"Otfried Lühker","Otfried","Lühker",26/12/1930 00:00:00,"Seminarstr. 2",3940104789.00,"2",2010.00
+260.00,"NO","F",,"Kenneth Orderløkken","Kenneth","Orderløkken",12/10/1960 00:00:00,"Sognsvn. 1",6850100483.00,"1",1020.00
+261.00,"GB","F",,"Debora Andrews","Debora","Andrews",7/9/1975 00:00:00,"2 Grafton Way",9250103921.00,"2",1020.00
+262.00,"IT","F",,"Teodora Marcattilj","Teodora","Marcattilj",15/8/1940 00:00:00,"Via Caraglio 4",4800104782.00,"4",1030.00
+263.00,"US","F",,"Janet Dice","Janet","Dice",20/3/1930 00:00:00,"1576 Hay Meadow Ct",9260103315.00,"1576",1040.00
+264.00,"DE","M",,"Sepp Weisenberger","Sepp","Weisenberger",17/8/1940 00:00:00,"Ibbenbürenerstr. 1",3940105046.00,"1",1040.00
+265.00,"GB","M",,"Ravi Apcar","Ravi","Apcar",22/6/1965 00:00:00,"1 Aldwych",9250102829.00,"1",1040.00
+266.00,"BE","F",,"Alexandra Demesure","Alexandra","Demesure",23/2/1980 00:00:00,"Schoolstr 22",1900100842.00,"22",2030.00
+267.00,"US","M",,"Michael Lovenstein","Michael","Lovenstein",9/12/1940 00:00:00,"4710 Hunting Ridge Rd",9260125541.00,"4710",2010.00
+268.00,"ES","F",,"Covadonga Moret","Covadonga","Moret",14/4/1940 00:00:00,"Av. Córdoba 2",8300100387.00,"2",2030.00
+269.00,"GB","M",,"Reece Wright","Reece","Wright",3/5/1965 00:00:00,"1 Dinerth Road",9250101121.00,"1",1030.00
+270.00,"GB","M",,"Marcus Lemmon","Marcus","Lemmon",19/10/1975 00:00:00,"25 Queen Street",9250101950.00,"25",1010.00
+271.00,"FR","M",,"Bernard Riche","Bernard","Riche",16/11/1965 00:00:00,"Bis Av Jean Moulin 16",3500100822.00,"16",1030.00
+272.00,"US","F",,"Lindsi Vali","Lindsi","Vali",27/5/1950 00:00:00,"95 Auburn Knightdale Rd",9260108370.00,"95",3010.00
+273.00,"US","F",,"Lynnetta Rideout","Lynnetta","Rideout",24/8/1975 00:00:00,"394 Essington Pl",9260120775.00,"394",2020.00
+274.00,"DE","F",,"Alina Müller-Thümen","Alina","Müller-Thümen",11/10/1945 00:00:00,"Plieningerstr. 60",3940109387.00,"60",2030.00
+275.00,"ES","F",,"Nancy Garland","Nancy","Garland",1/1/1970 00:00:00,"C. Goya 9",8300100535.00,"9",1030.00
+276.00,"IT","M",,"Elio Nicola Lanternier","Elio Nicola","Lanternier",21/12/1940 00:00:00,"Strada 2",4800104271.00,"2",2010.00
+277.00,"US","M",,"Wayne Oliverosamador","Wayne","Oliverosamador",6/4/1970 00:00:00,"547 Burlington Mills Rd",9260129795.00,"547",3010.00
+278.00,"US","M",,"Kenneth Stoltmann","Kenneth","Stoltmann",9/11/1950 00:00:00,"225 Lake Brandt Dr",9260112921.00,"225",2020.00
+279.00,"AT","M",,"Richard Sachs","Richard","Sachs",8/4/1980 00:00:00,"Ungargasse 1",1650100337.00,"1",2020.00
+280.00,"US","M",,"Hitendra Worsham","Hitendra","Worsham",4/6/1935 00:00:00,"5235 Langtree Ln",9260119417.00,"5235",1040.00
+281.00,"AT","M",,"Wolfgang Finster","Wolfgang","Finster",23/1/1984 00:00:00,"Nussdorferstr. 25",1650100277.00,"25",1040.00
+282.00,"US","M",,"Tariq Shikh","Tariq","Shikh",4/5/1980 00:00:00,"92 Arizona Dr",9260118560.00,"92",2010.00
+283.00,"FI","F",,"Ella Nykyri","Ella","Nykyri",8/12/1950 00:00:00,"Itäinen Pitkäkatu 1",3400100497.00,"1",3010.00
+284.00,"FR","M",,"Frederic Gerday","Frederic","Gerday",4/1/1945 00:00:00,"Boulevard de Verdun 1",3500100246.00,"1",3010.00
+285.00,"US","F",,"Dana Piegore","Dana","Piegore",2/8/1935 00:00:00,"91 Baymar Dr",9260109317.00,"91",1040.00
+286.00,"AU","F",,"Judy Zagas","Judy","Zagas",8/7/1980 00:00:00,"1 Culgya Avenue",1600100928.00,"1",2010.00
+287.00,"US","M",,"Thomas Cazaglis","Thomas","Cazaglis",22/10/1975 00:00:00,"704 Grand Ave",9260100962.00,"704",2030.00
+288.00,"AU","M",,"David Coughlan","David","Coughlan",22/10/1930 00:00:00,"91 Station Road",1600102674.00,"91",1040.00
+289.00,"GB","M",,"Mike Hyland","Mike","Hyland",14/10/1980 00:00:00,"12 Ormonde Road",9250107698.00,"12",3010.00
+290.00,"US","M",,"Joseph Grubbs","Joseph","Grubbs",17/6/1980 00:00:00,"2879 Camelot Dr",9260121988.00,"2879",2030.00
+291.00,"NL","M",,"W.J. Hoogendijck","W.J.","Hoogendijck",20/4/1970 00:00:00,"Elisabethhof 5",6300100929.00,"5",1040.00
+292.00,"SI","F",,"Alina Bertok","Alina","Bertok",12/7/1940 00:00:00,"Parmova 18",7890100262.00,"18",2020.00
+293.00,"ES","F",,"Mar Alfaro","Mar","Alfaro",25/2/1930 00:00:00,"C. Alcalá 406",8300100431.00,"406",1010.00
+294.00,"CH","M",,"Claude Diggelmann","Claude","Diggelmann",18/11/1945 00:00:00,"Centro Galleria 1",8550100070.00,"1",2030.00
+295.00,"FR","M",,"Alexander Bidet","Alexander","Bidet",10/7/1982 00:00:00,"Boulevard Saint Jacques 16",3500100853.00,"16",2020.00
+296.00,"US","F",,"Latausha Schukman","Latausha","Schukman",5/12/1960 00:00:00,"135 Hardimont Rd",9260101417.00,"135",1040.00
+297.00,"US","M",,"Todd Smith","Todd","Smith",25/1/1975 00:00:00,"77 Carriage Oaks Dr",9260106376.00,"77",1040.00
+298.00,"US","M",,"Craig Dahlen","Craig","Dahlen",1/10/1970 00:00:00,"3159 Hylton Dr",9260124197.00,"3159",1020.00
+299.00,"US","M",,"Joseph Wilkerson","Joseph","Wilkerson",10/3/1970 00:00:00,"45 Amberglow Pl",9260106834.00,"45",3010.00
+300.00,"US","F",,"Brigitt Widgeon","Brigitt","Widgeon",21/4/1984 00:00:00,"861 Bergman Dr",9260113099.00,"861",2030.00
+301.00,"BE","F",,"Anneleen Vanlangenaeker","Anneleen","Vanlangenaeker",3/8/1955 00:00:00,"Mirakelstr 4",1900110992.00,"4",2010.00
+302.00,"FR","M",,"Nicolas Excoffon","Nicolas","Excoffon",19/1/1945 00:00:00,"Rue Chaptal 55",3500100453.00,"55",2030.00
+303.00,"FR","F",,"Magali Legouis","Magali","Legouis",17/5/1960 00:00:00,"Avenue du Maine 5",3500100798.00,"5",1040.00
+304.00,"US","F",,"Cherokee Camaya","Cherokee","Camaya",6/2/1935 00:00:00,"426 Deerwood Dr",9260125334.00,"426",1020.00
+305.00,"US","F",,"Kathy Treinis","Kathy","Treinis",21/2/1965 00:00:00,"303 Deer Haven Dr",9260126848.00,"303",2020.00
+306.00,"ES","M",,"Raúl Carrasco Valadés","Raúl","Carrasco Valadés",9/12/1980 00:00:00,"C. Torres Quevedo 2",8300100354.00,"2",1010.00
+307.00,"US","F",,"Kamesia Madrin","Kamesia","Madrin",14/6/1955 00:00:00,"4712 Glascock St",9260124728.00,"4712",1010.00
+308.00,"ES","F",,"Montserrat Álvarez de la Mata","Montserrat","Álvarez de la Mata",22/12/1965 00:00:00,"Paseo de Cristobal Colón 13",8300100941.00,"13",1020.00
+309.00,"US","M",,"Edward Kietzmann","Edward","Kietzmann",11/7/1935 00:00:00,"1757 Bald Eagle Ln",9260122132.00,"1757",3010.00
+310.00,"US","M",,"Bobby Paesler","Bobby","Paesler",7/5/1970 00:00:00,"990 Andersonwood Dr",9260117657.00,"990",2030.00
+311.00,"DE","M",,"Gregor Ubben","Gregor","Ubben",5/4/1970 00:00:00,"Lautenschlagerstr. 18",3940109333.00,"18",2030.00
+312.00,"US","F",,"Zylda Saigeon","Zylda","Saigeon",22/5/1982 00:00:00,"2534 Dana Dr",9260122788.00,"2534",2010.00
+313.00,"DE","M",,"Ulf-Gerhard Mehltreter","Ulf-Gerhard","Mehltreter",14/6/1970 00:00:00,"Hindenburgdamm 16",3940100704.00,"16",1040.00
+314.00,"US","M",,"Dain Lewis","Dain","Lewis",12/9/1984 00:00:00,"1783 Creek Mill Dr",9260106695.00,"1783",3010.00
+315.00,"US","M",,"Darick Jelovich","Darick","Jelovich",11/6/1970 00:00:00,"3386 Delbridge Dr",9260124118.00,"3386",2020.00
+316.00,"US","M",,"Lawrence Nederveen","Lawrence","Nederveen",3/5/1984 00:00:00,"163 Dubose St",9260123811.00,"163",3010.00
+317.00,"AU","M",,"Lindsay Wansink","Lindsay","Wansink",10/9/1984 00:00:00,"4 Hargrave Street",1600101981.00,"4",1040.00
+318.00,"US","M",,"Mebane Argila","Mebane","Argila",17/1/1960 00:00:00,"406 Bristol Hill Ct",9260112145.00,"406",1040.00
+319.00,"DE","F",,"Monika Rüter","Monika","Rüter",6/6/1960 00:00:00,"Dickstr. 1",3940104872.00,"1",1030.00
+320.00,"US","M",,"Jesus Koopman","Jesus","Koopman",5/1/1950 00:00:00,"1885 Caymus Ct",9260124530.00,"1885",3010.00
+321.00,"US","F",,"Dulcie Rappazzo","Dulcie","Rappazzo",13/3/1945 00:00:00,"1563 Cleveland St",9260125024.00,"1563",1010.00
+322.00,"US","F",,"Yaoping Johnson","Yaoping","Johnson",21/9/1975 00:00:00,"3135 Apache Ln",9260126124.00,"3135",1030.00
+323.00,"US","M",,"Garnett Sartain","Garnett","Sartain",13/5/1975 00:00:00,"5980 Hempshire Pl",9260125344.00,"5980",2010.00
+324.00,"US","M",,"Edward Saathoff","Edward","Saathoff",23/6/1960 00:00:00,"3348 Greenway Ave",9260107931.00,"3348",2020.00
+325.00,"US","M",,"Geoffrey Homsher","Geoffrey","Homsher",6/11/1965 00:00:00,"96 Heathridge Ln",9260121945.00,"96",3010.00
+326.00,"US","M",,"Sheron Lohela","Sheron","Lohela",26/11/1975 00:00:00,"17 Fox Hollow Dr",9260108464.00,"17",2020.00
+327.00,"US","M",,"Dayton Rienzi","Dayton","Rienzi",16/10/1965 00:00:00,"104 Jamestown Cir",9260108762.00,"104",2030.00
+328.00,"FR","F",,"Nellie Grenier","Nellie","Grenier",9/3/1982 00:00:00,"Rue de la Republique 1",3500101453.00,"1",2030.00
+329.00,"FR","M",,"Andre Grosos","Andre","Grosos",12/7/1970 00:00:00,"Rue Emile Combes 20",3500100163.00,"20",2010.00
+330.00,"FR","M",,"Philippe Cambien","Philippe","Cambien",25/4/1930 00:00:00,"Quai du Point du Jour 2",3500100131.00,"2",2030.00
+331.00,"DE","M",,"Albert Hartel","Albert","Hartel",4/5/1965 00:00:00,"am Hauptbahnhof 8",3940109478.00,"8",1040.00
+332.00,"IT","M",,"Loredana Noci","Loredana","Noci",11/11/1970 00:00:00,"C.Da Papardo Salita Sperone 18",4800104309.00,"18",2030.00
+333.00,"FR","F",,"Marylis Guerin","Marylis","Guerin",10/5/1984 00:00:00,"Chemin des Peupliers 23",3500100275.00,"23",1030.00
+334.00,"DE","F",,"Anja Witteck","Anja","Witteck",19/6/1975 00:00:00,"Rudolf-Ehrlich-Str. 7",3940101769.00,"7",1030.00
+335.00,"CH","F",,"Valeria Lanz","Valeria","Lanz",25/11/1975 00:00:00,"Via Tesserete 2",8550100064.00,"2",2030.00
+336.00,"CH","F",,"Barbara Ebneter","Barbara","Ebneter",2/3/1982 00:00:00,"Paulstr. 4",8550100106.00,"4",1030.00
+337.00,"ES","M",,"Javier Fernández-Gasset","Javier","Fernández-Gasset",21/2/1970 00:00:00,"C. Albasanz 52",8300100428.00,"52",3010.00
+338.00,"DE","F",,"Martha Ganschow","Martha","Ganschow",23/4/1984 00:00:00,"Gustav-Nachtigal-Str. 2",3940106645.00,"2",1030.00
+339.00,"AU","M",,"Sanir Kopelke","Sanir","Kopelke",5/6/1930 00:00:00,"10 Gallipoli Street",1600101094.00,"10",2030.00
+340.00,"DE","F",,"Simona Knack","Simona","Knack",25/2/1982 00:00:00,"Weitersburger Weg 9",3940109734.00,"9",3010.00
+341.00,"NL","F",,"I.P.A. Peter","I.P.A.","Peter",6/5/1940 00:00:00,"St. Urbanusweg 20",6300101388.00,"20",2020.00
+342.00,"ES","M",,"Gabriel González López","Gabriel","González López",22/12/1965 00:00:00,"C. General Oraá 21",8300100527.00,"21",1010.00
+343.00,"US","M",,"Eric Merritt","Eric","Merritt",1/2/1984 00:00:00,"2178 Candler Falls Ct",9260115501.00,"2178",2020.00
+344.00,"ES","M",,"Luis Cantero Blanco","Luis","Cantero Blanco",9/10/1982 00:00:00,"C. Orense 60",8300100627.00,"60",1030.00
+345.00,"DE","M",,"Bernhard Ettenhofer","Bernhard","Ettenhofer",4/5/1940 00:00:00,"Abraham-Lincolnstr. 45",3940109993.00,"45",1030.00
+346.00,"FR","F",,"Veronique Debruyne","Veronique","Debruyne",24/7/1984 00:00:00,"Bis Rue de Saint Petersbourg 8",3500100826.00,"8",2030.00
+347.00,"IT","F",,"Francesca Soler","Francesca","Soler",15/4/1930 00:00:00,"Via Roma 15",4800101114.00,"15",1040.00
+348.00,"US","M",,"Allen Diprima","Allen","Diprima",9/10/1950 00:00:00,"2928 Barrington Dr",9260125682.00,"2928",2020.00
+349.00,"US","F",,"Susan Tallett","Susan","Tallett",27/3/1984 00:00:00,"28 Annandale Dr",9260110475.00,"28",1040.00
+350.00,"IT","F",,"Rosita Polentini","Rosita","Polentini",14/2/1930 00:00:00,"Via Del Fonditore 3",4800100374.00,"3",2020.00
+351.00,"ES","F",,"Federico Gayo","Federico","Gayo",9/5/1950 00:00:00,"Bo. Sarriena 1",8300100357.00,"1",2030.00
+352.00,"DE","M",,"Uwe Krause","Uwe","Krause",9/5/1945 00:00:00,"Bremserstr. 42",3940106374.00,"42",2010.00
+353.00,"AU","M",,"Richard Parikh","Richard","Parikh",4/6/1970 00:00:00,"9 Northbourne Ave",1600100877.00,"9",3010.00
+354.00,"FI","M",,"Jari Nevalainen","Jari","Nevalainen",13/12/1982 00:00:00,"Hiomotie 9",3400100153.00,"9",2030.00
+355.00,"FI","F",,"Anna-Maija Pilpola","Anna-Maija","Pilpola",7/9/1945 00:00:00,"Suvilahdenkatu 1",3400100255.00,"1",2020.00
+356.00,"FR","M",,"Gerard Henocq","Gerard","Henocq",22/12/1980 00:00:00,"Rue de la Croix Nivert 167",3500101123.00,"167",2030.00
+357.00,"DE","F",,"Constanze Miller","Constanze","Miller",14/7/1980 00:00:00,"Dietlindenstr. 11",3940107126.00,"11",2030.00
+358.00,"DE","M",,"Bodo Eschwé-Steinpichler","Bodo","Eschwé-Steinpichler",18/8/1980 00:00:00,"Theodor-Heuss-Allee 26",3940103334.00,"26",1020.00
+359.00,"ES","M",,"Antonio del Val Melús","Antonio","del Val Melús",7/9/1960 00:00:00,"C. Ruiz González de Clavijo 1",8300100668.00,"1",1030.00
+360.00,"FR","M",,"Yves Guilloux","Yves","Guilloux",20/2/1955 00:00:00,"Rue des Archives 5",3500101135.00,"5",1030.00
+361.00,"US","M",,"Bromley Septer","Bromley","Septer",7/3/1975 00:00:00,"936 Gazebo Dr",9260124316.00,"936",1020.00
+362.00,"DE","F",,"Regine Frankenheim","Regine","Frankenheim",24/4/1950 00:00:00,"Werkstr. 1",3940104001.00,"1",1040.00
+363.00,"FR","M",,"Patrick Page","Patrick","Page",8/1/1982 00:00:00,"Rue Pierre Duhem 55",3500100005.00,"55",1040.00
+364.00,"US","F",,"Patricia Larino","Patricia","Larino",2/9/1940 00:00:00,"742 Blackwolf Run Ln",9260112198.00,"742",1040.00
+365.00,"US","F",,"Ella Nourie","Ella","Nourie",18/10/1955 00:00:00,"124 Arendell Ave",9260101591.00,"124",1010.00
+366.00,"CH","F",,"Liora Hafner","Liora","Hafner",8/9/1960 00:00:00,"Viale H. Guisan 5",8550100026.00,"5",1030.00
+367.00,"FR","F",,"Nicole Jacob","Nicole","Jacob",22/10/1970 00:00:00,"Av du General de Gaulle 3",3500100492.00,"3",1010.00
+368.00,"NL","M",,"P.P. Traas","P.P.","Traas",2/2/1940 00:00:00,"Ankersmidplein 1",6300101439.00,"1",2020.00
+369.00,"US","M",,"Gregory Butwell","Gregory","Butwell",12/8/1982 00:00:00,"1350 Cove Creek Dr",9260105120.00,"1350",1010.00
+370.00,"TR","M",,"Meral Sezgin","Meral","Sezgin",3/2/1984 00:00:00,"Kar Plaza Kayisdagi Cad. No. 12",9050100007.00,"12",1020.00
+371.00,"GB","M",,"David Hockin","David","Hockin",2/11/1980 00:00:00,"5 Princs Court",9250106229.00,"5",3010.00
+372.00,"US","M",,"Raymond Conner","Raymond","Conner",1/10/1930 00:00:00,"5207 Alanda Ct",9260106706.00,"5207",1020.00
+373.00,"US","M",,"Yamilkar Brinkley","Yamilkar","Brinkley",19/2/1975 00:00:00,"792 Draymore Way",9260125045.00,"792",3010.00
+374.00,"DE","F",,"Irene Bolsenkötter","Irene","Bolsenkötter",28/6/1950 00:00:00,"St. Huberterstr. 32",3940105427.00,"32",1020.00
+375.00,"DE","F",,"Maria-Jose Scharpf","Maria-Jose","Scharpf",21/11/1984 00:00:00,"Niederkasseler Lohweg 67",3940102379.00,"67",1020.00
+376.00,"IT","M",,"Giuseppe Roberto Callery","Giuseppe Roberto","Callery",10/7/1960 00:00:00,"Via Lorenteggio 58",4800102211.00,"58",1010.00
+377.00,"NL","M",,"C.J. Heijne","C.J.","Heijne",2/11/1945 00:00:00,"Euclideslaan 36",6300101304.00,"36",3010.00
+378.00,"DE","M",,"Thomas Köppen","Thomas","Köppen",8/11/1965 00:00:00,"Müllerstraße 1",3940100839.00,"1",2020.00
+379.00,"GB","F",,"Julie Page","Julie","Page",4/10/1965 00:00:00,"31 Monument Hill",9250107615.00,"31",2010.00
+380.00,"US","M",,"Tommy Leatherman","Tommy","Leatherman",21/7/1935 00:00:00,"2602 Lake Wheeler Rd",9260117784.00,"2602",1040.00
+381.00,"FR","M",,"Scott Josse","Scott","Josse",22/5/1940 00:00:00,"Avenue Marcel Proust 6",3500100192.00,"6",2020.00
+382.00,"SA","M",,"Behzad Akrout","Behzad","Akrout",12/12/1960 00:00:00,"Central Avenue 46",7850100001.00,"46",1020.00
+383.00,"FR","M",,"Cyril Parize","Cyril","Parize",6/12/1940 00:00:00,"Place de la Pyramide 1",3500101207.00,"1",1020.00
+384.00,"US","M",,"Geri Morgan","Geri","Morgan",12/1/1930 00:00:00,"428 Allsdale Dr",9260123434.00,"428",1040.00
+385.00,"US","M",,"Paux Steck","Paux","Steck",1/2/1965 00:00:00,"8270 Clatter Ave",9260124775.00,"8270",2020.00
+386.00,"ES","F",,"Carmen Bernal","Carmen","Bernal",25/7/1935 00:00:00,"Av. Blasco Ibáñez 5",8300100984.00,"5",1020.00
+387.00,"CH","M",,"Stephano Özdemir","Stephano","Özdemir",8/11/1984 00:00:00,"Piazza Manzoni 2",8550100054.00,"2",2020.00
+388.00,"US","F",,"Evelina Novgrod","Evelina","Novgrod",27/11/1982 00:00:00,"4763 Draper Rd",9260121032.00,"4763",1020.00
+389.00,"US","M",,"Donald Brown","Donald","Brown",27/10/1982 00:00:00,"3563 Huntingwood Dr",9260103750.00,"3563",1010.00
+390.00,"US","F",,"Kortne Dawson","Kortne","Dawson",20/4/1970 00:00:00,"321 Horsetrail Way",9260121115.00,"321",2030.00
+391.00,"ES","M",,"Jesús García Merino","Jesús","García Merino",28/6/1982 00:00:00,"C. Alcuñeza 1",8300100954.00,"1",2020.00
+392.00,"DE","M",,"Harald Datene","Harald","Datene",19/1/1984 00:00:00,"Praunheimer Landstr. 11",3940103266.00,"11",2030.00
+393.00,"US","F",,"Georgina Shafiei","Georgina","Shafiei",28/9/1955 00:00:00,"1865 Clover Ridge Ct",9260117947.00,"1865",1020.00
+394.00,"US","F",,"Livia Reynolds","Livia","Reynolds",9/10/1945 00:00:00,"103 Hillbrook Ct",9260122297.00,"103",1020.00
+395.00,"GB","F",,"Tamara Mcevoy","Tamara","Mcevoy",17/7/1975 00:00:00,"12 Church Street",9250107355.00,"12",2020.00
+396.00,"IT","M",,"Carlo Albertotti","Carlo","Albertotti",10/1/1960 00:00:00,"Via Olmo 2",4800100642.00,"2",3010.00
+397.00,"ES","M",,"Xavier Mateo Oyagüe","Xavier","Mateo Oyagüe",3/11/1930 00:00:00,"Av. De la Borbolla 3",8300100931.00,"3",3010.00
+398.00,"IT","F",,"Maria Concetta Rosa'","Maria Concetta","Rosa'",17/1/1975 00:00:00,"Corso d'Italia 32",4800103460.00,"32",1020.00
+399.00,"IT","M",,"Luigi Locato","Luigi","Locato",4/10/1980 00:00:00,"Via Nazionale Delle Puglie 1",4800103299.00,"1",1040.00
+400.00,"US","M",,"Okezie Vanfossen","Okezie","Vanfossen",3/9/1955 00:00:00,"3552 Hammerfest Rd",9260122368.00,"3552",1020.00
+401.00,"FR","M",,"Bruno Chauprade","Bruno","Chauprade",12/1/1955 00:00:00,"Bld Descartes 3",3500100519.00,"3",2020.00
+402.00,"FR","M",,"Gabriel Bouvet","Gabriel","Bouvet",15/11/1980 00:00:00,"Is Building - Bat Genie 2",3500100524.00,"2",1030.00
+403.00,"DE","M",,"Wilhelm Claaßen","Wilhelm","Claaßen",18/10/1970 00:00:00,"Kleiner Kornweg 17",3940105415.00,"17",2020.00
+404.00,"DE","M",,"Godehard Eimannsberger","Godehard","Eimannsberger",2/8/1935 00:00:00,"Edmund-Rumpler-Straße 7",3940107137.00,"7",1030.00
+405.00,"IT","F",,"Elena Fanti","Elena","Fanti",21/2/1945 00:00:00,"Piazza San Giusto 10",4800101647.00,"10",2010.00
+406.00,"GB","M",,"Derek Stillabower","Derek","Stillabower",1/5/1935 00:00:00,"12 St Peter Street",9250100322.00,"12",3010.00
+407.00,"US","F",,"Cheryl Mcarthur","Cheryl","Mcarthur",13/9/1950 00:00:00,"2 Daytona Dr",9260106304.00,"2",2030.00
+408.00,"FR","M",,"Daniel Chaptal","Daniel","Chaptal",8/2/1955 00:00:00,"Rue des Lilas d'Espagne 1",3500100257.00,"1",1030.00
+409.00,"ES","M",,"Josep María Gimeno","Josep María","Gimeno",15/1/1982 00:00:00,"C. Gaviotas 1",8300100846.00,"1",1010.00
+410.00,"ES","F",,"María Luz Power Meier-Mehrckens","María Luz","Power Meier-Mehrckens",4/3/1984 00:00:00,"Av. De Algorta 1",8300100312.00,"1",1040.00
+411.00,"FR","F",,"Diane Chevret","Diane","Chevret",16/12/1930 00:00:00,"Place Jussieu 3",3500100882.00,"3",1030.00
+412.00,"FR","F",,"Michele Robain","Michele","Robain",25/8/1935 00:00:00,"Rue de Germont 2",3500101314.00,"2",1030.00
+413.00,"US","M",,"Richard Mckernan","Richard","Mckernan",13/2/1935 00:00:00,"384 Clatter Ave",9260102942.00,"384",1030.00
+414.00,"US","M",,"John Levay","John","Levay",21/6/1935 00:00:00,"110 Lake Lynn Dr",9260108338.00,"110",1030.00
+415.00,"US","M",,"Jimmy Vergolias","Jimmy","Vergolias",8/7/1960 00:00:00,"1633 Lake Boone Trl",9260124092.00,"1633",2030.00
+416.00,"US","F",,"Jonneeka Opaluch","Jonneeka","Opaluch",1/3/1975 00:00:00,"1368 Creek Ridge Ln",9260101968.00,"1368",1020.00
+417.00,"AU","M",,"Ronald Parnell","Ronald","Parnell",22/12/1975 00:00:00,"3 Mews Road",1600100022.00,"3",1010.00
+418.00,"GB","M",,"Nick Ditchburn","Nick","Ditchburn",23/7/1930 00:00:00,"2 St Michaels Place",9250100715.00,"2",1040.00
+419.00,"US","F",,"Mary Lee","Mary","Lee",22/12/1965 00:00:00,"1690 Butler Blvd",9260101470.00,"1690",3010.00
+420.00,"DE","F",,"Alexandra Preikschas","Alexandra","Preikschas",16/10/1982 00:00:00,"Henningsdorferstr. 109",3940100698.00,"109",1030.00
+421.00,"US","F",,"Lady Berendser","Lady","Berendser",9/6/1965 00:00:00,"3568 Community Dr",9260121611.00,"3568",1020.00
+422.00,"AU","M",,"Pin Mostafa","Pin","Mostafa",1/2/1945 00:00:00,"18 Royal Street",1600103220.00,"18",1040.00
+423.00,"US","M",,"Gerry Lupien","Gerry","Lupien",10/1/1975 00:00:00,"451 Bud Lipscomb Rd",9260105746.00,"451",3010.00
+424.00,"GB","F",,"Helga Boxall","Helga","Boxall",4/5/1984 00:00:00,"128 Sipson Road",9250107579.00,"128",1020.00
+425.00,"FR","F",,"Josianne Rozeron","Josianne","Rozeron",18/12/1982 00:00:00,"Rue Gallieni 1",3500100116.00,"1",2010.00
+426.00,"US","M",,"John Mccoon","John","Mccoon",20/3/1975 00:00:00,"650 Crestwood Dr",9260122780.00,"650",1020.00
+427.00,"IT","F",,"Silvia Verbena","Silvia","Verbena",10/11/1984 00:00:00,"Via Carlo Spinola 8",4800103664.00,"8",1040.00
+428.00,"US","M",,"Michael Lehning","Michael","Lehning",1/9/1945 00:00:00,"986 Bedford Ave",9260101655.00,"986",1020.00
+429.00,"FR","F",,"Claire Blanchard","Claire","Blanchard",3/6/1984 00:00:00,"Qu du Point du Jour 1",3500100114.00,"1",1020.00
+430.00,"DE","F",,"Sladjana Wrobel","Sladjana","Wrobel",16/4/1975 00:00:00,"Berliner Ring 57",3940100467.00,"57",2020.00
+431.00,"FR","M",,"Nels Vomerti","Nels","Vomerti",22/11/1945 00:00:00,"Av du General Leclerc 2",3500100221.00,"2",3010.00
+432.00,"CH","M",,"Mauro de Marchi","Mauro","de Marchi",13/6/1960 00:00:00,"Grenzacherstr. 25",8550100011.00,"25",1030.00
+433.00,"US","F",,"Charldine Robas","Charldine","Robas",24/10/1982 00:00:00,"130 Fincastle Dr",9260104782.00,"130",2030.00
+434.00,"ES","M",,"Valentín Álvarez Sanz","Valentín","Álvarez Sanz",25/8/1950 00:00:00,"C. Príncipe de Vergara 27",8300100648.00,"27",2010.00
+435.00,"US","M",,"David Kazunas","David","Kazunas",11/9/1975 00:00:00,"55 Lake Front Dr",9260110251.00,"55",2020.00
+436.00,"US","M",,"Robert Mathews","Robert","Mathews",3/6/1960 00:00:00,"892 Alder Ridge Ln",9260115695.00,"892",1030.00
+437.00,"US","F",,"Helen Eddins","Helen","Eddins",3/1/1980 00:00:00,"43 Emerson Dr",9260116309.00,"43",2010.00
+438.00,"US","M",,"Mark Yenner","Mark","Yenner",1/9/1975 00:00:00,"85 Davis Dr",9260105646.00,"85",1030.00
+439.00,"US","F",,"Tenerian Baltuck","Tenerian","Baltuck",7/2/1935 00:00:00,"405 Dixie Trl",9260127986.00,"405",1040.00
+440.00,"NL","F",,"J.A. Scholman","J.A.","Scholman",20/3/1935 00:00:00,"Wassenaarseweg 42",6300100109.00,"42",2010.00
+441.00,"CH","F",,"Agnese Schwinn","Agnese","Schwinn",12/11/1965 00:00:00,"St. Alban-Anlage 1",8550100022.00,"1",2030.00
+442.00,"SE","F",,"Gunilla Alfbecker","Gunilla","Alfbecker",19/8/1960 00:00:00,"Starrbäcksgatan 1",8500100418.00,"1",1040.00
+443.00,"DE","F",,"Bärbel Derraught","Bärbel","Derraught",27/10/1975 00:00:00,"Lindnerstr. 91",3940108090.00,"91",3010.00
+444.00,"US","M",,"Gregory Hinson","Gregory","Hinson",20/9/1945 00:00:00,"1133 Beckworth Ct",9260107408.00,"1133",2010.00
+445.00,"US","F",,"Natalie Berbach","Natalie","Berbach",12/5/1945 00:00:00,"123 Accolade Dr",9260109546.00,"123",2020.00
+446.00,"BE","M",,"Willy Clucts","Willy","Clucts",19/10/1940 00:00:00,"cite des Droliers 33",1900111309.00,"33",2020.00
+447.00,"GB","M",,"Mervyn Inman","Mervyn","Inman",27/12/1965 00:00:00,"2 Kelvin Close",9250107477.00,"2",1030.00
+448.00,"GB","F",,"Nicki Moodie","Nicki","Moodie",24/1/1940 00:00:00,"2 Finsbury Ave",9250103730.00,"2",1020.00
+449.00,"US","M",,"Terry Barnett","Terry","Barnett",20/7/1945 00:00:00,"7 Fayetteville Rd",9260102022.00,"7",1010.00
+450.00,"US","M",,"Richard Almahairi","Richard","Almahairi",23/7/1930 00:00:00,"21 Ivy Commons Dr",9260110056.00,"21",2020.00
+451.00,"GB","M",,"Stephen Ralham","Stephen","Ralham",16/6/1970 00:00:00,"9 St Benedict Street",9250106357.00,"9",1010.00
+452.00,"IT","F",,"Nicia Bonvicino","Nicia","Bonvicino",16/4/1965 00:00:00,"Piazza Martiri d'Ungheria 2",4800105217.00,"2",1020.00
+453.00,"NL","F",,"J.A. Daems","J.A.","Daems",3/11/1970 00:00:00,"Europalaan 96",6300101306.00,"96",3010.00
+454.00,"AU","F",,"Marion Wieringa","Marion","Wieringa",15/2/1970 00:00:00,"72 Flinders Street",1600100930.00,"72",2010.00
+455.00,"ES","F",,"Rosalía Massana Esteve","Rosalía","Massana Esteve",7/8/1935 00:00:00,"Av. De Las Universidades 1",8300100221.00,"1",1040.00
+456.00,"AU","F",,"Aurelia Balemans","Aurelia","Balemans",24/9/1930 00:00:00,"15 Exhibition Street",1600101824.00,"15",1040.00
+457.00,"TR","F",,"Bilge Sezgin","Bilge","Sezgin",6/7/1950 00:00:00,"C/Blok Kat. 3",9050100010.00,"3",1030.00
+458.00,"US","F",,"Runnell Munir","Runnell","Munir",4/6/1965 00:00:00,"311 Lake Woodard Dr",9260125314.00,"311",3010.00
+459.00,"DE","F",,"Daniela Jorch","Daniela","Jorch",24/3/1930 00:00:00,"Körnerstr. 21",3940103933.00,"21",3010.00
+460.00,"FR","F",,"Mireille Couque","Mireille","Couque",11/10/1950 00:00:00,"Av du Maine 19",3500100761.00,"19",2030.00
+461.00,"US","F",,"Donna Zipf","Donna","Zipf",11/9/1935 00:00:00,"322 Hickory Glen Ln",9260118397.00,"322",1040.00
+462.00,"DE","F",,"Evi Imping","Evi","Imping",2/9/1970 00:00:00,"Herzogstr. 10",3940102302.00,"10",1010.00
+463.00,"FR","M",,"Laurent Fossa","Laurent","Fossa",28/3/1980 00:00:00,"All du Clos des Charmes 7",3500100232.00,"7",2030.00
+464.00,"DE","M",,"Claus Jürgen Guiard","Claus Jürgen","Guiard",28/4/1955 00:00:00,"Liebigstraße 1",3940101675.00,"1",2030.00
+465.00,"NL","F",,"I.C. Van Gent","I.C.","Van Gent",26/9/1945 00:00:00,"Laan Der Techniek 3",6300101370.00,"3",1010.00
+466.00,"US","M",,"John Helphinstine","John","Helphinstine",27/12/1980 00:00:00,"2828 Elmswick Ct",9260102753.00,"2828",2010.00
+467.00,"US","F",,"Jessica Seaberry","Jessica","Seaberry",22/7/1984 00:00:00,"494 Flora Springs Dr",9260126246.00,"494",2020.00
+468.00,"CH","M",,"Jürg Selmoni","Jürg","Selmoni",7/8/1950 00:00:00,"Müllheimerstr. 17",8550100018.00,"17",1010.00
+469.00,"US","M",,"Thomas Wittie","Thomas","Wittie",21/9/1950 00:00:00,"905 Eagles Landing Dr",9260109924.00,"905",1010.00
+470.00,"AU","M",,"Stephen Hagger","Stephen","Hagger",8/12/1982 00:00:00,"10 Constitution Road",1600100478.00,"10",1020.00
+471.00,"US","F",,"Jo Hannah Mutch","Jo Hannah","Mutch",28/3/1980 00:00:00,"1368 Glen Eden Dr",9260105464.00,"1368",2010.00
+472.00,"AU","F",,"Janelle Mcewan","Janelle","Mcewan",13/10/1965 00:00:00,"30 Thompsons Road",1600101399.00,"30",3010.00
+473.00,"DE","M",,"Adalbert Lienau","Adalbert","Lienau",22/9/1950 00:00:00,"Friedrichstr. 19",3940102261.00,"19",2020.00
+474.00,"NL","M",,"P.J. Joosen","P.J.","Joosen",3/5/1965 00:00:00,"Heer Bokelweg 118",6300101146.00,"118",1040.00
+475.00,"GB","F",,"Celia Howard-Brown","Celia","Howard-Brown",14/5/1975 00:00:00,"320 London Road",9250102270.00,"320",1010.00
+476.00,"US","F",,"Mary Helen Musial","Mary Helen","Musial",20/3/1950 00:00:00,"57 Draymore Way",9260125844.00,"57",2030.00
+477.00,"US","M",,"Talmon Henderson","Talmon","Henderson",1/1/1935 00:00:00,"3043 Hardimont Rd",9260106900.00,"3043",1020.00
+478.00,"US","F",,"Taneeka Paterniti","Taneeka","Paterniti",1/2/1945 00:00:00,"2514 Flint Rock Cir",9260120083.00,"2514",1040.00
+479.00,"NO","F",,"Elizabeth Grahl-Nilsen","Elizabeth","Grahl-Nilsen",5/7/1955 00:00:00,"Skovvn. 1",6850100479.00,"1",1040.00
+480.00,"US","F",,"Jennifer Hartwick","Jennifer","Hartwick",7/2/1945 00:00:00,"6649 Fairlake Dr",9260129422.00,"6649",2020.00
+481.00,"US","F",,"Audrey Apflauer","Audrey","Apflauer",24/5/1935 00:00:00,"1203 Gorman St",9260124916.00,"1203",3010.00
+482.00,"US","M",,"Shakil Deschaines","Shakil","Deschaines",15/4/1960 00:00:00,"2623 Derry Down Ln",9260107657.00,"2623",2030.00
+483.00,"DE","M",,"Nikolaus Drissler","Nikolaus","Drissler",21/11/1960 00:00:00,"Nasser Kamp 1",3940106112.00,"1",2030.00
+484.00,"TR","F",,"Bilge Kurtaran","Bilge","Kurtaran",23/3/1970 00:00:00,"Fahrettin Kerim Gokay Cad. No. 17",9050100001.00,"17",1020.00
+485.00,"SE","M",,"Claes Andersson","Claes","Andersson",9/6/1975 00:00:00,"Kungsgatan 37",8500100345.00,"37",2020.00
+486.00,"ES","F",,"Cristina Parra Fernández Pacheco","Cristina","Parra Fernández Pacheco",4/11/1975 00:00:00,"C. Don Ramón de la Cruz 45",8300100495.00,"45",2030.00
+487.00,"BE","F",,"Fabricia Moutoy","Fabricia","Moutoy",16/5/1960 00:00:00,"Vlaamse Kaai 42",1900104958.00,"42",1020.00
+488.00,"US","F",,"Billie Krauser","Billie","Krauser",23/12/1980 00:00:00,"161 Ashley Ct",9260108878.00,"161",2030.00
+489.00,"US","F",,"Joelle Talbott","Joelle","Talbott",10/4/1950 00:00:00,"3539 Hampton Ridge Rd",9260108934.00,"3539",1040.00
+490.00,"US","M",,"Loddie Adamik","Loddie","Adamik",27/11/1970 00:00:00,"971 Hemingwood Ct",9260123103.00,"971",3010.00
+491.00,"US","M",,"David Korff","David","Korff",24/3/1950 00:00:00,"335 Castlelake Ct",9260107817.00,"335",1020.00
+492.00,"US","M",,"David Dulin","David","Dulin",28/5/1960 00:00:00,"147 Bowling Farm Ct",9260103876.00,"147",1020.00
+493.00,"US","M",,"Robert Proctor","Robert","Proctor",27/9/1935 00:00:00,"4778 Crag Burn Ln",9260125930.00,"4778",3010.00
+494.00,"ES","M",,"Keenan García Guerrero","Keenan","García Guerrero",23/6/1950 00:00:00,"C. Vial Interpolar 1",8300100874.00,"1",2020.00
+495.00,"DE","F",,"Claudia Balocchi","Claudia","Balocchi",5/9/1955 00:00:00,"Jagdstr. 9",3940107921.00,"9",2020.00
+496.00,"SE","M",,"Birger Bergling","Birger","Bergling",24/11/1955 00:00:00,"Fabrikörvägen 6",8500100205.00,"6",2020.00
+497.00,"FI","F",,"Michael Woods","Michael","Woods",18/9/1955 00:00:00,"Heikkilänkuja 1",3400100297.00,"1",1040.00
+498.00,"ES","F",,"Yolanda Gómez","Yolanda","Gómez",23/9/1955 00:00:00,"C. Gobelas 29",8300100533.00,"29",2020.00
+499.00,"US","M",,"Andrew Leikert","Andrew","Leikert",3/4/1965 00:00:00,"1047 Bournemouth Dr",9260105863.00,"1047",1020.00
+500.00,"GB","M",,"Iain Aggarwal","Iain","Aggarwal",25/2/1960 00:00:00,"5 Bristo Square",9250101456.00,"5",1010.00
+501.00,"US","F",,"Tansy Donaldson","Tansy","Donaldson",9/11/1960 00:00:00,"426 Fort Sumter Rd",9260104406.00,"426",1030.00
+502.00,"DE","M",,"Erwin Hägele","Erwin","Hägele",25/7/1960 00:00:00,"Anzingerstr. 27",3940107047.00,"27",2020.00
+503.00,"IT","M",,"Celso Ferrarini","Celso","Ferrarini",24/10/1970 00:00:00,"Via Panizza 1",4800101698.00,"1",1020.00
+504.00,"DE","F",,"Heike Müller-Wilke","Heike","Müller-Wilke",4/10/1930 00:00:00,"Ludwigstr. 22",3940107342.00,"22",1020.00
+505.00,"DE","F",,"Izabela Wirtz","Izabela","Wirtz",4/12/1970 00:00:00,"Meißnerstr. 152",3940108452.00,"152",1010.00
+506.00,"DE","M",,"Peter Tepel","Peter","Tepel",20/5/1950 00:00:00,"Ahrensburgerstr. 1",3940104499.00,"1",3010.00
+507.00,"ES","F",,"Annuka de Juan","Annuka","de Juan",27/10/1960 00:00:00,"Av. General Perón 15",8300100404.00,"15",1010.00
+508.00,"ES","F",,"Ester Herrero Alcalde","Ester","Herrero Alcalde",10/1/1980 00:00:00,"C. Plom 2",8300100161.00,"2",1040.00
+509.00,"US","M",,"Mark Epplin","Mark","Epplin",19/9/1950 00:00:00,"2245 Hodge Rd",9260116725.00,"2245",2020.00
+510.00,"AU","M",,"Tsui Naoumis","Tsui","Naoumis",11/9/1980 00:00:00,"16 Napier Street",1600102925.00,"16",2010.00
+511.00,"US","F",,"Bergit Teuscher","Bergit","Teuscher",3/4/1945 00:00:00,"120 Hawthorne Park",9260100822.00,"120",1040.00
+512.00,"DE","M",,"Rüdiger Peipers","Rüdiger","Peipers",12/2/1980 00:00:00,"Planckstr. 4",3940109385.00,"4",1020.00
+513.00,"NL","F",,"B.N.B. Spangenberg","B.N.B.","Spangenberg",4/9/1980 00:00:00,"Steurweg 1",6300101094.00,"1",2030.00
+514.00,"US","F",,"Erneka Allen","Erneka","Allen",20/8/1930 00:00:00,"4 Bridle Creek Dr",9260119864.00,"4",1030.00
+515.00,"US","M",,"Cecil Yarosz","Cecil","Yarosz",26/6/1935 00:00:00,"1519 Crescent Ct",9260109166.00,"1519",1010.00
+516.00,"US","F",,"Kathryn Derrow","Kathryn","Derrow",15/10/1955 00:00:00,"667 Clatter Ave",9260117701.00,"667",1010.00
+517.00,"DE","F",,"Karina Mette","Karina","Mette",22/12/1950 00:00:00,"Marienberger Str. 4",3940101459.00,"4",2030.00
+518.00,"US","F",,"Kelly Peterson","Kelly","Peterson",5/2/1970 00:00:00,"105 Dwelling Pl",9260105185.00,"105",1020.00
+519.00,"HR","M",,"Dnjepar Juzba¹iæ","Dnjepar","Juzba¹iæ",5/7/1955 00:00:00,"Baruna Trenka 4",4400100059.00,"4",3010.00
+520.00,"DE","F",,"Susanna Solf","Susanna","Solf",28/1/1940 00:00:00,"Hölderlinstr. 2",3940109047.00,"2",1040.00
+521.00,"NL","F",,"Jan-Reijer Roest","Jan-Reijer","Roest",16/3/1955 00:00:00,"Wisselwerking 14",6300100666.00,"14",1010.00
+522.00,"US","F",,"Claranette Lynge","Claranette","Lynge",14/12/1955 00:00:00,"749 Grove Crabtree Cres",9260110708.00,"749",1010.00
+523.00,"DE","F",,"Ursula Mekelburg","Ursula","Mekelburg",6/6/1965 00:00:00,"Mainzerstr. 1",3940108803.00,"1",2020.00
+524.00,"IT","F",,"Vanessa Saladino","Vanessa","Saladino",3/7/1982 00:00:00,"Via Marco Traiano 5",4800102230.00,"5",2020.00
+525.00,"NO","F",,"Anette Nysæter","Anette","Nysæter",22/1/1930 00:00:00,"Hovedgården 1",6850100642.00,"1",1040.00
+526.00,"IT","F",,"Diuska Concolato","Diuska","Concolato",4/2/1965 00:00:00,"Via Caldera 12",4800102013.00,"12",1040.00
+527.00,"US","M",,"Adair Howell","Adair","Howell",15/9/1940 00:00:00,"5603 Hunt Club Ln",9260122054.00,"5603",1010.00
+528.00,"US","M",,"Eric Stuczynski","Eric","Stuczynski",18/4/1982 00:00:00,"1371 Carnegie Ln",9260117126.00,"1371",1030.00
+529.00,"US","F",,"Kerre Dale","Kerre","Dale",1/8/1950 00:00:00,"725 Embleton Dr",9260118161.00,"725",2010.00
+530.00,"US","M",,"Walter Cotten","Walter","Cotten",15/9/1955 00:00:00,"51 Latimer Rd",9260104342.00,"51",1040.00
+531.00,"BE","F",,"Katelijne Deneef","Katelijne","Deneef",1/3/1982 00:00:00,"Mouterijstr 58",1900106413.00,"58",2020.00
+532.00,"ES","M",,"Jose Manuel Sanclement","Jose Manuel","Sanclement",25/4/1940 00:00:00,"C. San Francisco 1",8300100925.00,"1",1010.00
+533.00,"DE","M",,"Richard Tonack","Richard","Tonack",4/9/1975 00:00:00,"Sauerbruchstraße 2",3940103748.00,"2",1020.00
+534.00,"US","F",,"Naveen Gipson","Naveen","Gipson",28/2/1965 00:00:00,"2480 Fairpoint Ct",9260122221.00,"2480",1040.00
+535.00,"SE","F",,"Leif Bendroth","Leif","Bendroth",28/11/1940 00:00:00,"Hagagatan 1",8500100318.00,"1",1020.00
+536.00,"FR","M",,"Thierry Ruth","Thierry","Ruth",6/1/1935 00:00:00,"Rue Henri Ey 102",3500101230.00,"102",1020.00
+537.00,"SI","F",,"Danica Smiljaniè","Danica","Smiljaniè",8/9/1980 00:00:00,"©ubièeva 1",7890100383.00,"1",1010.00
+538.00,"US","F",,"Jilma Loudy","Jilma","Loudy",11/3/1930 00:00:00,"2021 Lake Lynn Dr",9260102965.00,"2021",1010.00
+539.00,"US","M",,"George Chylinski","George","Chylinski",21/9/1950 00:00:00,"2269 Kenbridge Ln",9260104009.00,"2269",1010.00
+540.00,"DE","F",,"Christine Prätzel","Christine","Prätzel",4/3/1965 00:00:00,"Lothriger Str. 48",3940105824.00,"48",3010.00
+541.00,"FR","F",,"Patricia Allusse","Patricia","Allusse",8/1/1960 00:00:00,"Rue de l'Egalite 1",3500100062.00,"1",3010.00
+542.00,"DE","F",,"Kirsten Knörzer","Kirsten","Knörzer",7/2/1965 00:00:00,"Brunsbüttler Damm 2",3940100574.00,"2",3010.00
+543.00,"NO","M",,"Knut Sverre Jørstad","Knut Sverre","Jørstad",3/2/1975 00:00:00,"Olav Kyrres Gate 4",6850100674.00,"4",1020.00
+544.00,"TR","M",,"Avni Argac","Avni","Argac",20/5/1960 00:00:00,"A Blok No: 1",9050100008.00,"1",1040.00
+545.00,"AU","F",,"Thana Engel","Thana","Engel",11/6/1965 00:00:00,"15 Barrack Street",1600102975.00,"15",2010.00
+546.00,"NO","M",,"Peer-Håkon Grave","Peer-Håkon","Grave",24/9/1970 00:00:00,"Strandveien 49",6850100208.00,"49",3010.00
+547.00,"US","M",,"Thomas Habig","Thomas","Habig",5/9/1955 00:00:00,"1520 Carostone Ct",9260117127.00,"1520",2020.00
+548.00,"US","M",,"Gregory Rinehard","Gregory","Rinehard",2/1/1982 00:00:00,"816 East St",9260117422.00,"816",1040.00
+549.00,"IT","M",,"Claudio Agazzone","Claudio","Agazzone",28/4/1950 00:00:00,"Via Spiga 9",4800102392.00,"9",2010.00
+550.00,"US","F",,"Kwamia Rossler","Kwamia","Rossler",15/1/1982 00:00:00,"733 Fitchburg Ct",9260120079.00,"733",3010.00
+551.00,"US","M",,"Blu Peachey","Blu","Peachey",17/3/1965 00:00:00,"85 Lake Boone Trl",9260102921.00,"85",3010.00
+552.00,"US","M",,"Landirth Koures","Landirth","Koures",17/8/1935 00:00:00,"138 Harps Mill Rd",9260101268.00,"138",1010.00
+553.00,"ES","F",,"Inmaculada Bocigas","Inmaculada","Bocigas",15/1/1935 00:00:00,"C. Enrique Larreta 1",8300100504.00,"1",3010.00
+554.00,"US","F",,"Louane Hunsinger","Louane","Hunsinger",21/3/1945 00:00:00,"3407 Cranborne Ln",9260110162.00,"3407",1010.00
+555.00,"AU","M",,"Branko Wytkin","Branko","Wytkin",9/1/1935 00:00:00,"1 Chifley Drive",1600100035.00,"1",2030.00
+556.00,"US","M",,"Thomas Whitney","Thomas","Whitney",26/11/1945 00:00:00,"498 Delaney Dr",9260124381.00,"498",2010.00
+557.00,"IT","F",,"Karen Bettoni","Karen","Bettoni",6/11/1950 00:00:00,"Via Guidubaldo Del Monte 42",4800103899.00,"42",2010.00
+558.00,"AT","M",,"Josef Schuster","Josef","Schuster",1/12/1935 00:00:00,"Hintere Zollamtsstr. 14",1650100219.00,"14",2020.00
+559.00,"DE","F",,"Inga Tücking","Inga","Tücking",5/10/1970 00:00:00,"Hagenauerstr. 12",3940110021.00,"12",3010.00
+560.00,"US","M",,"Walter Didsbury","Walter","Didsbury",24/5/1965 00:00:00,"278 Evers Dr",9260100228.00,"278",2030.00
+561.00,"US","M",,"Frankie Grueneich","Frankie","Grueneich",9/5/1960 00:00:00,"1245 Horsham Way",9260112495.00,"1245",2010.00
+562.00,"US","M",,"William Reams","William","Reams",2/3/1945 00:00:00,"2676 Center St",9260126757.00,"2676",1010.00
+563.00,"US","M",,"James Hunn","James","Hunn",28/4/1975 00:00:00,"6075 Grant Ave",9260110943.00,"6075",2020.00
+564.00,"ES","F",,"Sara Savina","Sara","Savina",6/7/1982 00:00:00,"C. Orense 16",8300100627.00,"16",1030.00
+565.00,"PT","F",,"Susana Cristina Calha","Susana Cristina","Calha",21/12/1945 00:00:00,"Praça d.João I 1",7350100340.00,"1",2010.00
+566.00,"US","F",,"Jeanmarie Belculfine","Jeanmarie","Belculfine",5/6/1945 00:00:00,"88 Huntcliff Ct",9260117453.00,"88",1040.00
+567.00,"US","F",,"Jennifer Smiljanich","Jennifer","Smiljanich",23/10/1950 00:00:00,"545 Dana Dr",9260122788.00,"545",1010.00
+568.00,"DE","M",,"Martin Dickermann","Martin","Dickermann",15/10/1980 00:00:00,"Dorfstr. 12",3940106797.00,"12",3010.00
+569.00,"US","M",,"Christopher Itoua","Christopher","Itoua",23/7/1982 00:00:00,"501 Carson St",9260114488.00,"501",1020.00
+570.00,"ES","M",,"Juan José Martínez Sampedro","Juan José","Martínez Sampedro",19/1/1980 00:00:00,"C. General Ruiz 1",8300101009.00,"1",2010.00
+571.00,"US","M",,"Andru Battaglia","Andru","Battaglia",23/1/1984 00:00:00,"1417 Iman Dr",9260124632.00,"1417",1010.00
+572.00,"FR","F",,"Nathalie Abousahl","Nathalie","Abousahl",26/2/1960 00:00:00,"Rue du 19 Mars 1962 1",3500100514.00,"1",1040.00
+573.00,"US","M",,"Godofredo Gilbert","Godofredo","Gilbert",23/11/1940 00:00:00,"2103 Fairway Ridge Dr",9260126236.00,"2103",1040.00
+574.00,"DE","F",,"Christine Rühland","Christine","Rühland",24/9/1984 00:00:00,"Theodor Althoffstr. 1",3940102778.00,"1",3010.00
+575.00,"US","M",,"Hermann Sanders","Hermann","Sanders",28/1/1930 00:00:00,"1165 Annandale Dr",9260100775.00,"1165",1040.00
+576.00,"US","F",,"Mettie Tuszynski","Mettie","Tuszynski",25/3/1935 00:00:00,"775 Glascock St",9260128681.00,"775",2010.00
+577.00,"US","F",,"Dulce Twiddy","Dulce","Twiddy",15/6/1960 00:00:00,"2047 Huntdell Main Dr",9260101111.00,"2047",1020.00
+578.00,"US","M",,"John Degrezia","John","Degrezia",10/5/1980 00:00:00,"1504 Ferris Wheel Ct",9260124827.00,"1504",1030.00
+579.00,"GB","M",,"Alan Pollins","Alan","Pollins",19/12/1975 00:00:00,"1 The Strand",9250107195.00,"1",2010.00
+580.00,"IT","M",,"Francesco Pasquazzi","Francesco","Pasquazzi",24/12/1965 00:00:00,"Piazza Iv Novembre 5",4800101878.00,"5",1020.00
+581.00,"US","M",,"J Jesus Burke","J Jesus","Burke",3/2/1980 00:00:00,"246 Alfalfa Ln",9260117833.00,"246",1030.00
+582.00,"US","M",,"Mark Angell-Brewer","Mark","Angell-Brewer",9/11/1955 00:00:00,"56 Braswell Ct",9260123715.00,"56",1040.00
+583.00,"US","M",,"Kengie Moore-Davis","Kengie","Moore-Davis",24/2/1982 00:00:00,"11 Crawford Rd",9260106749.00,"11",1030.00
+584.00,"DE","F",,"Anja Militzer","Anja","Militzer",8/2/1984 00:00:00,"Große Elbstr. 174",3940104159.00,"174",1030.00
+585.00,"IT","M",,"Raul Law","Raul","Law",25/2/1935 00:00:00,"Via Panciatichi 33",4800101230.00,"33",1040.00
+586.00,"US","F",,"Samina Deprospero","Samina","Deprospero",28/11/1965 00:00:00,"3924 Courtney Ln",9260101455.00,"3924",1020.00
+587.00,"FR","M",,"Alain Dubois","Alain","Dubois",16/9/1945 00:00:00,"Avenue du President Wilson 1",3500101188.00,"1",1030.00
+588.00,"GB","M",,"Wen Leech","Wen","Leech",28/1/1975 00:00:00,"1 Hagley Road West",9250106425.00,"1",2030.00
+589.00,"US","M",,"Shade Westney","Shade","Westney",19/10/1955 00:00:00,"284 Lake Ridge Dr",9260110254.00,"284",2030.00
+590.00,"TR","M",,"Onat Hasillioglu","Onat","Hasillioglu",3/3/1982 00:00:00,"Kayisdagi Cad. Karaman Ciftlig 2",9050100006.00,"2",3010.00
+591.00,"GB","F",,"Liz Badcock","Liz","Badcock",17/9/1970 00:00:00,"1 Windsor Place",9250100990.00,"1",2020.00
+592.00,"FR","F",,"Nicole Mathe","Nicole","Mathe",28/2/1980 00:00:00,"Chemin du Grand Revoyet 63",3500101239.00,"63",1010.00
+593.00,"DE","M",,"Guido Fräßdorf","Guido","Fräßdorf",24/6/1940 00:00:00,"am Katharina-Heinroth Ufer 1",3940101045.00,"1",1020.00
+594.00,"GB","F",,"Don Lloyd","Don","Lloyd",27/11/1980 00:00:00,"7 Barley Row Passage",9250102922.00,"7",2010.00
+595.00,"US","M",,"Brian Dilen","Brian","Dilen",27/4/1982 00:00:00,"383 Edenton St",9260108382.00,"383",1030.00
+596.00,"GB","F",,"Pippa Stone","Pippa","Stone",14/1/1980 00:00:00,"39 New Oxford Street",9250104807.00,"39",1040.00
+597.00,"GB","F",,"Rachael Whitford","Rachael","Whitford",21/4/1984 00:00:00,"1 New Road",9250106504.00,"1",2010.00
+598.00,"DE","M",,"Andreas Ehlen","Andreas","Ehlen",8/1/1982 00:00:00,"Benzstraße 1",3940108431.00,"1",1020.00
+599.00,"IT","M",,"Luigi Cerrioli","Luigi","Cerrioli",17/7/1955 00:00:00,"Strada Statale 146",4800101324.00,"146",1020.00
+600.00,"IT","M",,"Vincenzo Ienni","Vincenzo","Ienni",14/3/1980 00:00:00,"Via Martorello 6",4800100778.00,"6",1040.00

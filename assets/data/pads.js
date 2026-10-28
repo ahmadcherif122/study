@@ -291,7 +291,6 @@ var CHEAT = [
     bank: BANK,
     mocks: { A: { ids: MOCK.A, minutes: 20, label: ["Set A", "Série A"] }, B: { ids: MOCK.B, minutes: 20, label: ["Set B", "Série B"] } },
     materials: MATERIALS.filter(function (m) { return m.path.indexOf("course/view") < 0; }).map(function (m) { return { title: m.title, kind: m.kind, note: ["Course file (module link not confirmed; opens the course page, where it is listed)", "Fichier du cours (lien de module non confirmé ; ouvre la page du cours, où il est listé)"] }; }),
-    materialsNote: [CO("info", ["Links", "Liens"], ["Every card opens the PADS course page (course/view.php?id=1276). The university files are not copied here.", "Chaque carte ouvre la page du cours PADS (course/view.php?id=1276). Les fichiers de l'université ne sont pas copiés ici."])],
     cheat: CHEAT,
     exam: {
       props: [{ label: "Date", value: ["Friday 6 November 2026, 9:00 (Tunis)", "Vendredi 6 novembre 2026, 9h00 (Tunis)"] }, { label: ["Length", "Durée"], value: ["1 hour", "1 heure"] }, { label: "Format", value: ["QCM only", "QCM uniquement"] }, { label: ["Question types", "Types de questions"], value: ["What does this code print? + OOP rules", "Qu'affiche ce code ? + règles de POO"] }, { label: ["Pace", "Rythme"], value: ["About 1 minute per question", "Environ 1 minute par question"] }],

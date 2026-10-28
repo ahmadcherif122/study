@@ -58,13 +58,20 @@
     countdown: ["Next exam", "Prochain examen"], schedule: ["Exam schedule", "Calendrier des DS"],
     open: ["Open", "Ouvrir"], startMock: ["Mock", "Examen blanc"], today: ["today", "aujourd'hui"], done: ["done", "passé"],
     inD: ["in", "dans"], days: ["d", "j"], hours: ["h", "h"], mins: ["min", "min"],
-    moodleNote: ["Opens the IIT Moodle in a new tab (log in first). PDFs are not copied here.", "Ouvre le Moodle de l'IIT dans un nouvel onglet (connectez-vous d'abord). Les PDF ne sont pas copiés ici."],
+    moodleNote: ["Opens the IIT Moodle in a new tab (log in first).", "Ouvre le Moodle de l'IIT dans un nouvel onglet (connectez-vous d'abord)."],
+    filesNote: ["The course files from Moodle, hosted here. Preview PDFs right on the page, or download any file.", "Les fichiers du cours sur Moodle, hébergés ici. Prévisualisez les PDF sur la page ou téléchargez n'importe quel fichier."],
+    gcourse: ["Course slides", "Cours"], gtdtp: ["TD / TP", "TD / TP"], gcorr: ["Corrections", "Corrections"], gexams: ["Past exams", "Anciens DS"], gother: ["Other files", "Autres fichiers"],
+    preview: ["Preview", "Aperçu"], download: ["Download", "Télécharger"], colab: ["Open in Colab", "Ouvrir dans Colab"], newTab: ["Open in new tab", "Ouvrir dans un onglet"],
+    close: ["Close", "Fermer"], pdfFallback: ["PDF not showing (common on phones)? Open it in a new tab or download it.", "Le PDF ne s'affiche pas (fréquent sur téléphone) ? Ouvrez-le dans un onglet ou téléchargez-le."],
+    onMoodle: ["Also on Moodle", "Aussi sur Moodle"], filesWord: ["files", "fichiers"], origPaper: ["Original papers (PDF)", "Sujets originaux (PDF)"],
+    allFiles: ["Course files", "Fichiers du cours"],
+    loadingPdf: ["Loading the PDF…", "Chargement du PDF…"],
     coursePage: ["Course page on Moodle", "Page du cours sur Moodle"], examBank: ["Exam bank (Banque d'examen)", "Banque d'examen"],
     lang: ["Français", "English"], theme: ["Theme", "Thème"],
     timerPaper: ["Start a timer", "Lancer un minuteur"], stopTimer: ["Stop timer", "Arrêter"],
     paperTip: ["Write your answer on paper first, then reveal the solution step by step.", "Écrivez d'abord votre réponse sur papier, puis dévoilez la solution étape par étape."],
     ctxCase: ["Shared case", "Cas commun"], questionsWord: ["questions", "questions"], lessonsWord: ["lessons", "leçons"],
-    footer: ["Built for personal revision. Content from the course notes; university documents stay on Moodle.", "Fait pour réviser. Contenu tiré des notes de cours ; les documents de l'université restent sur Moodle."],
+    footer: ["Built for personal revision. Lessons and QCM written from the IIT course notes; course files © their authors.", "Fait pour réviser. Leçons et QCM rédigés à partir des cours de l'IIT ; fichiers de cours © leurs auteurs."],
     lessonPick: ["Lesson", "Leçon"]
   };
   function u(k) { return tr(UI[k] || k); }
@@ -614,6 +621,8 @@
     var h = '<div class="panel-h"><h2>' + u("exam") + "</h2></div>";
     if (e.props) h += block({ t: "props", items: e.props }, "exam.props");
     h += blocks(e.b, "exam");
+    var ex = (cur.past && cur.past.length) ? [] : subjFiles(cur.id).filter(function (f) { return f.g === "exams"; });
+    if (ex.length) h += '<section class="sec papers-src"><h3>' + u("origPaper") + '</h3><ul class="flist">' + ex.map(fileRow).join("") + "</ul></section>";
     // lesson path
     h += '<section class="sec"><h3>' + u("lessons") + '</h3><div class="lpath">' + cur.lessons.map(function (l, i) {
       return '<a class="lp' + (S.lessons[l.id] ? " done" : "") + '" href="#lessons/' + esc(l.id) + '"><span class="lp-n">' + (i + 1) + '</span><span class="lp-t">' + rich(l.label).replace(/^\d+\.\s*/, "") + "</span>" + (l.min ? '<span class="lp-m">' + l.min + " min</span>" : "") + "</a>";
@@ -663,6 +672,8 @@
   }
   function pastPanel() {
     var h = '<div class="panel-h"><h2>' + esc(tr(cur.pastLabel || UI.past)) + "</h2><p class=\"cap\">" + u("paperTip") + "</p></div>";
+    var ex = subjFiles(cur.id).filter(function (f) { return f.g === "exams"; });
+    if (ex.length) h += '<section class="sec papers-src"><h3>' + u("origPaper") + '</h3><ul class="flist">' + ex.map(fileRow).join("") + "</ul></section>";
     cur.past.forEach(function (p, pi) {
       h += '<section class="paper"><div class="paper-h"><h3>' + rich(p.title) + "</h3>" + (p.meta ? '<p class="cap">' + rich(p.meta) + "</p>" : "") + '<div class="ctl">' + paperTimerHtml(p.id, p.minutes || 60) + "</div></div>";
       h += blocks(p.intro, "past." + p.id + ".i");
@@ -686,10 +697,105 @@
     var items = (cur.materials || []).map(function (m) { return { title: m.title, kind: "Moodle · " + tr(m.kind || ""), note: m.note, href: m.path ? base + m.path : base + "course/view.php?id=" + meta.moodle }; });
     items.unshift({ title: u("coursePage"), kind: "Moodle", href: base + "course/view.php?id=" + meta.moodle, note: "course/view.php?id=" + meta.moodle });
     items.push({ title: u("examBank"), kind: "Moodle · " + tr(["Exams", "Examens"]), href: base + "course/view.php?id=" + SITE.examBank });
-    var h = '<div class="panel-h"><h2>' + u("materials") + '</h2><p class="cap">' + u("moodleNote") + "</p></div>" + linkCards(items);
-    if (cur.materialsNote) h += blocks(cur.materialsNote, "mat");
+    var h = '<div class="panel-h"><h2>' + u("materials") + '</h2><p class="cap">' + u("filesNote") + "</p></div>" + fileGroups(subjFiles(cur.id));
+    h += '<section class="sec moodle-sec"><h3>' + u("onMoodle") + '</h3><p class="cap">' + u("moodleNote") + "</p>" + linkCards(items) + "</section>";
     return h;
   }
+  /* ---------------- course files (assets/files.js) ---------------- */
+  var GROUPS = ["course", "tdtp", "corr", "exams", "other"];
+  var GICON = { course: "📘", tdtp: "🧪", corr: "✅", exams: "📝", other: "📎" };
+  function subjFiles(id) { return (window.FILES && window.FILES[id]) || []; }
+  function fsize(n) {
+    var fr = lang === "fr", k = n / 1024;
+    var s = k < 1024 ? Math.max(1, Math.round(k)) + (fr ? " Ko" : " KB") : (k / 1024).toFixed(k < 10240 ? 1 : 0) + (fr ? " Mo" : " MB");
+    return fr ? s.replace(".", ",") : s;
+  }
+  function fileExt(f) { var m = /\.([a-z0-9]+)$/i.exec(f.f); return m ? m[1].toLowerCase() : ""; }
+  function fileRow(f) {
+    var ext = fileExt(f), isPdf = ext === "pdf";
+    var h = '<li class="frow"><span class="ficon ft-' + esc(ext) + '">' + esc(ext === "ipynb" ? "IPY" : ext.toUpperCase()) + '</span><span class="fmain"><span class="ft">' + rich(f.t) + '</span><span class="fm">' + esc(f.type) + " · " + esc(fsize(f.size)) + (f.orig ? ' · <span class="forig">' + esc(f.orig) + "</span>" : "") + '</span></span><span class="fact">';
+    if (isPdf) h += '<button type="button" class="btn primary sm" data-act="fpreview" data-arg="' + esc(f.f) + '">👁 ' + u("preview") + "</button>";
+    if (ext === "ipynb" && SITE.repo) h += '<a class="btn sm" href="https://colab.research.google.com/github/' + esc(SITE.repo) + "/blob/main/" + esc(f.f) + '" target="_blank" rel="noopener">' + u("colab") + " ↗</a>";
+    h += '<a class="btn sm" href="' + esc(f.f) + '" download="' + esc(f.f.split("/").pop()) + '">⬇ ' + u("download") + "</a>";
+    return h + "</span></li>";
+  }
+  function fileGroups(list, only) {
+    if (!list.length) return "";
+    return '<div class="fgroups">' + GROUPS.filter(function (g) { return !only || only === g; }).map(function (g) {
+      var xs = list.filter(function (f) { return f.g === g; });
+      if (!xs.length) return "";
+      return '<section class="fgroup fg-' + g + '"><h3><span class="fg-i">' + GICON[g] + "</span>" + u("g" + g) + ' <span class="fg-n">' + xs.length + "</span></h3><ul class=\"flist\">" + xs.map(fileRow).join("") + "</ul></section>";
+    }).join("") + "</div>";
+  }
+  Study.fileGroups = fileGroups;
+  function findFile(path) { var all = window.FILES || {}; for (var k in all) for (var i = 0; i < all[k].length; i++) if (all[k][i].f === path) return all[k][i]; return null; }
+  var lastFocus = null;
+  function openViewer(path) {
+    var f = findFile(path); if (!f) return;
+    closeViewer();
+    lastFocus = document.activeElement;
+    var name = path.split("/").pop();
+    var m = document.createElement("div");
+    m.className = "fviewer"; m.id = "fviewer"; m.setAttribute("role", "dialog"); m.setAttribute("aria-modal", "true"); m.setAttribute("aria-label", tr(f.t));
+    m.innerHTML = '<div class="fv-back" data-act="fclose"></div><div class="fv-box"><div class="fv-bar"><span class="fv-t">' + rich(f.t) + '<small>' + esc(f.type) + " · " + esc(fsize(f.size)) + '</small></span><a class="btn sm" href="' + esc(path) + '" target="_blank" rel="noopener">' + u("newTab") + ' ↗</a><a class="btn sm" href="' + esc(path) + '" download="' + esc(name) + '">⬇ ' + u("download") + '</a><button type="button" class="btn sm primary fv-x" data-act="fclose" aria-label="' + u("close") + '">✕ ' + u("close") + '</button></div>' +
+      '<div class="fv-body">' + (nativePdf() ? '<iframe src="' + esc(path) + '#view=FitH" title="' + esc(tr(f.t)) + '"></iframe>' : '<div class="fv-pages" id="fv-pages"><p class="fv-load">' + u("loadingPdf") + "</p></div>") + '</div><p class="fv-fb">' + u("pdfFallback") + ' <a href="' + esc(path) + '" target="_blank" rel="noopener">' + u("newTab") + " ↗</a></p></div>";
+    document.body.appendChild(m); document.body.classList.add("fv-open");
+    var x = m.querySelector(".fv-x"); if (x) x.focus();
+    if (!nativePdf()) renderPdfJs(path, m);
+  }
+  /* Browsers with a built-in PDF viewer (desktop) embed it in an iframe; phones/tablets (Android has none,
+     iOS shows only page 1) get pages drawn with the bundled pdf.js. Force with ?pdfjs=1 or ?pdfjs=0. */
+  function nativePdf() {
+    var q = /[?&]pdfjs=([01])/.exec(location.search); if (q) return q[1] === "0";
+    var ua = navigator.userAgent || "", ios = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    if (ios || /Android|Mobi/i.test(ua)) return false;
+    return navigator.pdfViewerEnabled !== false;
+  }
+  var pdfLib = null;
+  function loadPdfJs() {
+    if (pdfLib) return pdfLib;
+    pdfLib = loadScript("assets/vendor/pdfjs/pdf.min.js").then(function () {
+      var L = window.pdfjsLib; if (!L) throw new Error("pdf.js failed to load");
+      L.GlobalWorkerOptions.workerSrc = "assets/vendor/pdfjs/pdf.worker.min.js"; return L;
+    });
+    return pdfLib;
+  }
+  function renderPdfJs(path, m) {
+    var box = m.querySelector("#fv-pages");
+    loadPdfJs().then(function (L) { return L.getDocument(path).promise; }).then(function (doc) {
+      if (!document.body.contains(m)) return;
+      box.innerHTML = "";
+      var w = Math.max(280, box.clientWidth - 16), dpr = Math.min(window.devicePixelRatio || 1, 2);
+      var io = "IntersectionObserver" in window ? new IntersectionObserver(function (ents) { ents.forEach(function (e) { if (e.isIntersecting) { io.unobserve(e.target); draw(e.target); } }); }, { root: box, rootMargin: "600px 0px" }) : null;
+      function draw(c) {
+        var n = +c.getAttribute("data-p");
+        doc.getPage(n).then(function (pg) {
+          var v1 = pg.getViewport({ scale: 1 }), sc = w / v1.width, vp = pg.getViewport({ scale: sc * dpr });
+          c.width = vp.width; c.height = vp.height; c.style.width = w + "px"; c.style.height = (vp.height / dpr) + "px";
+          pg.render({ canvasContext: c.getContext("2d"), viewport: vp });
+        });
+      }
+      doc.getPage(1).then(function (p1) {
+        var v = p1.getViewport({ scale: 1 }), hh = Math.round(w * v.height / v.width);
+        for (var i = 1; i <= doc.numPages; i++) {
+          var c = document.createElement("canvas"); c.className = "fv-pg"; c.setAttribute("data-p", i); c.style.width = w + "px"; c.style.height = hh + "px";
+          var lab = document.createElement("div"); lab.className = "fv-pn"; lab.textContent = i + " / " + doc.numPages;
+          box.appendChild(c); box.appendChild(lab);
+          if (io) io.observe(c); else if (i <= 3) draw(c);
+        }
+      });
+    }).catch(function () {
+      if (box) box.innerHTML = '<p class="fv-load">' + u("pdfFallback") + ' <a class="btn sm primary" href="' + esc(path) + '" target="_blank" rel="noopener">' + u("newTab") + " ↗</a></p>";
+    });
+  }
+  function closeViewer() {
+    var m = document.getElementById("fviewer"); if (!m) return;
+    m.parentNode.removeChild(m); document.body.classList.remove("fv-open");
+    if (lastFocus && lastFocus.focus) try { lastFocus.focus(); } catch (e) {}
+  }
+  Study.openViewer = openViewer; Study.closeViewer = closeViewer;
+  document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") closeViewer(); });
+
   function renderPanel() {
     var r = route(), meta = subjMeta(cur.id), p = document.getElementById("panel");
     REG = {}; QREG = {};
@@ -738,7 +844,11 @@
         '<div class="pbar"><span>QCM ' + u("rightN") + " " + st.right + "/" + st.total + '</span><i><b style="width:' + pq + '%"></b></i></div>' +
         '<div class="ctl"><a class="btn primary" href="' + esc(s.page) + '">' + u("open") + '</a><a class="btn" href="' + esc(s.page) + '#lessons">' + u("lessons") + '</a><a class="btn" href="' + esc(s.page) + '#mock">' + u("startMock") + "</a></div></article>";
     }).join("") + "</div></section>";
-    h += '<section class="sec"><h3>' + u("materials") + "</h3>" + linkCards(SUBJECTS.map(function (s) { return { title: s.name, kind: "Moodle · " + s.short, href: SITE.moodle + "course/view.php?id=" + s.moodle }; }).concat([{ title: u("examBank"), kind: "Moodle", href: SITE.moodle + "course/view.php?id=" + SITE.examBank }])) + "</section>";
+    h += '<section class="sec"><h3>' + u("allFiles") + '</h3><div class="links">' + SUBJECTS.map(function (s) {
+      var fs = subjFiles(s.id), tot = fs.reduce(function (a, f) { return a + f.size; }, 0);
+      return '<a class="link-card" href="' + esc(s.page) + '#materials" style="border-left:4px solid ' + s.color + '"><span class="lk-kind">' + esc(s.short) + '</span><span class="lk-t">' + esc(tr(s.name)) + '</span><span class="lk-n">' + fs.length + " " + u("filesWord") + " · " + esc(fsize(tot)) + '</span><span class="lk-go">→</span></a>';
+    }).join("") + "</div></section>";
+    h += '<section class="sec"><h3>' + u("onMoodle") + "</h3>" + linkCards(SUBJECTS.map(function (s) { return { title: s.name, kind: "Moodle · " + s.short, href: SITE.moodle + "course/view.php?id=" + s.moodle }; }).concat([{ title: u("examBank"), kind: "Moodle", href: SITE.moodle + "course/view.php?id=" + SITE.examBank }])) + "</section>";
     h += "</main>" + footer();
     document.getElementById("app").innerHTML = h;
     tickHome();
@@ -759,6 +869,8 @@
     var act = el.getAttribute("data-act"), arg = el.getAttribute("data-arg") || "";
     if (act === "lang") { lang = lang === "en" ? "fr" : "en"; lsSet("lang", lang); document.documentElement.lang = lang; var y = window.scrollY; render(); window.scrollTo(0, y); return; }
     if (act === "theme") { theme = theme === "auto" ? "dark" : theme === "dark" ? "light" : "auto"; lsSet("theme", theme); applyTheme(); el.innerHTML = themeIcon(); return; }
+    if (act === "fpreview") { openViewer(arg); return; }
+    if (act === "fclose") { closeViewer(); return; }
     if (!cur) return;
     var p, k;
     switch (act) {
@@ -807,7 +919,7 @@
     if (window.matchMedia) { try { window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", applyTheme); } catch (e) {} }
     var sid = document.body.getAttribute("data-subject");
     var list = sid ? SUBJECTS.filter(function (s) { return s.id === sid; }) : SUBJECTS;
-    Promise.all(list.map(function (s) { return loadScript("assets/data/" + s.id + ".js"); })).then(function () { render(); Study.ready = true; document.documentElement.setAttribute("data-ready", "1"); });
+    Promise.all(list.map(function (s) { return loadScript("assets/data/" + s.id + ".js"); }).concat([loadScript("assets/files.js")])).then(function () { render(); Study.ready = true; document.documentElement.setAttribute("data-ready", "1"); });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
 })();

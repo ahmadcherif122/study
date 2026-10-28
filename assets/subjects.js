@@ -9,7 +9,8 @@ window.SITE = {
   student: "Ahmed Cherif",
   school: ["2nd year SDIA, IIT", "2e année SDIA, IIT"],
   moodle: "https://moodle.canadacentral.cloudapp.azure.com/",
-  examBank: 1432
+  examBank: 1432,
+  repo: "ahmadcherif122/study"
 };
 window.SUBJECTS = [
   { id: "dmml", page: "dmml.html", short: "DM&ML", color: "#6366f1",
